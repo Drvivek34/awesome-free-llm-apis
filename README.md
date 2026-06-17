@@ -1,78 +1,116 @@
-# Awesome Free LLM APIs 🚀
+# API-Pulse: The Ultimate Free LLM, Search, & AI Tool API Directory ⚡
 
-*A curated, auto-updated directory of Large Language Model (LLM) APIs with permanent free tiers or trial credits. Updated daily by Hermes bots.*
+*A curated, auto-updated registry of Large Language Model (LLM) APIs, search APIs, voice transcriptions, and developer CLI tools with permanent free tiers or trial credits. Updated daily by Hermes bots.*
 
-## Quick Comparison Table
+🌐 **[English](README.md)** · **[简体中文](README.zh-CN.md)**
 
-| Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models | API Key / Referral Link |
+## 📌 LLM Inference & API Providers
+
+| Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 🇮🇱 **AI21** | First-Party | 🇮🇱 | ✅ Yes | Not configured yet. Historically provides $10 in trial credits on signup. | *Not configured yet* | [Normal Link](https://www.ai21.com/) |
-| 🇮🇱 **AionLabs** | First-Party | 🇮🇱 | ✅ Yes | Not configured yet. Permanent free tier (15 RPM, 20K tokens/day). | *Not configured yet* | [Normal Link](https://www.aionlabs.ai/) |
-| 🇺🇸 **Akamai Cloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. Linode/Akamai cloud hosting referral rewards $100 for 60 days to new users. | *Not configured yet* | [Referral Link]() / [Normal Link](https://www.linode.com/) |
-| 🌐 **AkashML** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Decentralized GPU network requiring AKT tokens for lease. | *Not configured yet* | [Normal Link](https://akash.network/) |
-| 🇨🇳 **Alibaba Cloud Int.** | Cloud Provider | 🇨🇳 | ✅ Yes | Not configured yet. Offers trial credits for international developers and free Qwen inference limits. | *Not configured yet* | [Normal Link](https://www.alibabacloud.com/) |
+| 🇮🇱 **AI21** | First-Party | 🇮🇱 | ✅ Yes | Not configured yet. Historically provides $10 in trial credits on signup. | *Not configured / Features listed below* | [Normal Link](https://www.ai21.com/) |
+| 🇮🇱 **AionLabs** | First-Party | 🇮🇱 | ✅ Yes | Not configured yet. Permanent free tier (15 RPM, 20K tokens/day). | *Not configured / Features listed below* | [Normal Link](https://www.aionlabs.ai/) |
+| 🌐 **AkashML** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Decentralized GPU network requiring AKT tokens for lease. | *Not configured / Features listed below* | [Normal Link](https://akash.network/) |
+| 🇨🇳 **Alibaba Cloud Int.** | Cloud Provider | 🇨🇳 | ✅ Yes | Not configured yet. Offers trial credits for international developers and free Qwen inference limits. | *Not configured / Features listed below* | [Normal Link](https://www.alibabacloud.com/) |
 | 🇺🇸 **Amazon Bedrock** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | AWS Free Tier includes access to Bedrock with limits on specific models for 12 months. Requires AWS account with billing info. | `meta.llama3-8b-instruct-v1:0`, `anthropic.claude-3-haiku-20240307-v1:0` | [Normal Link](https://aws.amazon.com/bedrock/) |
-| 🇺🇸 **Anthropic** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. Offers $5 in free credits for new verified phone numbers. | *Not configured yet* | [Normal Link](https://console.anthropic.com/) |
-| 🇺🇸 **Arcee AI** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. SLM platform for fine-tuning and hosting custom model sizes. | *Not configured yet* | [Normal Link](https://www.arcee.ai/) |
-| 🇺🇸 **AtlasCloud** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. High-performance GPU provider with trial instances. | *Not configured yet* | [Normal Link](https://atlascloud.io/) |
-| 🇺🇸 **Azure** | Cloud Provider | 🇺🇸 | ✅ Yes | Not configured yet. Azure Cognitive Services free quotas require registration. | *Not configured yet* | [Normal Link](https://azure.microsoft.com/) |
-| 🇺🇸 **Azure Cloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. General Azure cloud $200 trial credits. | *Not configured yet* | [Normal Link](https://azure.microsoft.com/) |
-| 🇨🇳 **Baidu Qianfan** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. Free access to Speed-tier models like ERNIE Speed. | *Not configured yet* | [Normal Link](https://cloud.baidu.com/product/wenxin.html) |
+| 🇺🇸 **Anthropic** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. Offers $5 in free credits for new verified phone numbers. | *Not configured / Features listed below* | [Normal Link](https://console.anthropic.com/) |
+| 🇺🇸 **Arcee AI** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. SLM platform for fine-tuning and hosting custom model sizes. | *Not configured / Features listed below* | [Normal Link](https://www.arcee.ai/) |
+| 🇺🇸 **AtlasCloud** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. High-performance GPU provider with trial instances. | *Not configured / Features listed below* | [Normal Link](https://atlascloud.io/) |
+| 🇺🇸 **Azure** | Cloud Provider | 🇺🇸 | ✅ Yes | Not configured yet. Azure Cognitive Services free quotas require registration. | *Not configured / Features listed below* | [Normal Link](https://azure.microsoft.com/) |
+| 🇨🇳 **Baidu Qianfan** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. Free access to Speed-tier models like ERNIE Speed. | *Not configured / Features listed below* | [Normal Link](https://cloud.baidu.com/product/wenxin.html) |
 | 🇺🇸 **Baseten** | Inference Provider | 🇺🇸 | ✅ Yes | $10 in free GPU credits upon registration for model deployment and cold-start testing. | `Llama-3-8B-Instruct` | [Normal Link](https://www.baseten.co/) |
 | 🇺🇸 **Cerebras** | Inference Provider | 🇺🇸 | ✅ Yes | Free tier with 1M tokens/day and ultra-fast inference. 8K context limit on free tier. 30 RPM, 14,400 RPD. | `llama3.1-8b`, `llama3.1-70b` | [Normal Link](https://cloud.cerebras.ai/) |
-| 🇺🇸 **Chutes** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Open-source inference container runner with signup credits. | *Not configured yet* | [Normal Link](https://chutes.ai/) |
-| 🇺🇸 **Clarifai** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Free community tier with monthly computational credits. | *Not configured yet* | [Normal Link](https://www.clarifai.com/) |
+| 🇺🇸 **Chutes** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Open-source inference container runner with signup credits. | *Not configured / Features listed below* | [Normal Link](https://chutes.ai/) |
+| 🇺🇸 **Clarifai** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Free community tier with monthly computational credits. | *Not configured / Features listed below* | [Normal Link](https://www.clarifai.com/) |
 | 🇺🇸 **Cloudflare** | Cloud Provider | 🇺🇸 | ✅ Yes | 10,000 free Neurons per day across 50+ models. No credit card required. | `llama-3-8b-instruct` | [Normal Link](https://dash.cloudflare.com/) |
-| 🇨🇦 **Cohere** | First-Party | 🇨🇦 | ✅ Yes | Free "Trial" API key, no credit card. 1,000 API calls/month. Non-commercial use only. | *Not configured yet* | [Normal Link](https://dashboard.cohere.com/api-keys) |
-| 🇮🇱 **Decart** | First-Party | 🇮🇱 | ✅ Yes | Not configured yet. Custom AI model provider with free trials on registration. | *Not configured yet* | [Normal Link](https://www.decart.ai/) |
-| 🇺🇸 **DeepInfra** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. $1.80 in free credits on registration. Referral rewards 1% of invitee spend. | *Not configured yet* | [Referral Link]() / [Normal Link](https://deepinfra.com/) |
-| 🇨🇳 **DeepSeek** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. 5M free tokens upon registration, valid for 1 month. | *Not configured yet* | [Normal Link](https://platform.deepseek.com/) |
-| 🇺🇸 **DigitalOcean** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. Referral program gives new users $200 for 60 days. | *Not configured yet* | [Referral Link]() / [Normal Link](https://www.digitalocean.com/) |
+| 🇨🇦 **Cohere** | First-Party | 🇨🇦 | ✅ Yes | Free "Trial" API key, no credit card. 1,000 API calls/month. Non-commercial use only. | *Not configured / Features listed below* | [Normal Link](https://dashboard.cohere.com/api-keys) |
+| 🇮🇱 **Decart** | First-Party | 🇮🇱 | ✅ Yes | Not configured yet. Custom AI model provider with free trials on registration. | *Not configured / Features listed below* | [Normal Link](https://www.decart.ai/) |
+| 🇺🇸 **DeepInfra** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. $1.80 in free credits on registration. Referral rewards 1% of invitee spend. | *Not configured / Features listed below* | [Referral Link]() / [Normal Link](https://deepinfra.com/) |
+| 🇨🇳 **DeepSeek** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. 5M free tokens upon registration, valid for 1 month. | *Not configured / Features listed below* | [Normal Link](https://platform.deepseek.com/) |
 | 🇺🇸 **Fireworks** | Inference Provider | 🇺🇸 | ✅ Yes | $1 in free trial credits upon signup. Pay-as-you-go thereafter. | `llama-v3p1-405b-instruct` | [Normal Link](https://fireworks.ai/) |
-| 🇰🇷 **Friendli** | Inference Provider | 🇰🇷 | ✅ Yes | Not configured yet. Free trial credits upon developer account creation. | *Not configured yet* | [Normal Link](https://friendli.ai/) |
-| 🇺🇸 **GMICloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. GPU Cloud provider with small trial allowances. | *Not configured yet* | [Normal Link](https://gmicloud.com/) |
-| 🇺🇸 **Google AI Studio** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. Gemini 1.5 Flash: 15 RPM, Gemini 1.5 Pro: 5 RPM. | *Not configured yet* | [Normal Link](https://aistudio.google.com/app/apikey) |
+| 🇰🇷 **Friendli** | Inference Provider | 🇰🇷 | ✅ Yes | Not configured yet. Free trial credits upon developer account creation. | *Not configured / Features listed below* | [Normal Link](https://friendli.ai/) |
+| 🇺🇸 **Google AI Studio** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. Gemini 1.5 Flash: 15 RPM, Gemini 1.5 Pro: 5 RPM. | *Not configured / Features listed below* | [Normal Link](https://aistudio.google.com/app/apikey) |
 | 🇺🇸 **Google Vertex** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | $300 in free trial credits for new Google Cloud accounts. Rate limits subject to GCP tier. | `gemini-1.5-flash`, `gemini-1.5-pro` | [Normal Link](https://cloud.google.com/vertex-ai) |
-| 🇺🇸 **Groq** | Inference Provider | 🇺🇸 | ✅ Yes | Free tier, no credit card. Ultra-fast LPU inference. [^2] | *Not configured yet* | [Normal Link](https://console.groq.com/keys) |
-| 🇦🇪 **Inception** | First-Party | 🇦🇪 | ✅ Yes | Not configured yet. Host of Arabic-centric models (JAIS). Trials available on request. | *Not configured yet* | [Normal Link](https://www.g42.ai/) |
-| 🇺🇸 **Inceptron** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Developer API for model workflows with introductory credits. | *Not configured yet* | [Normal Link](https://inceptron.com/) |
-| 🇺🇸 **Infermatic** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Open source large models hosted with free tier options. | *Not configured yet* | [Normal Link](https://infermatic.ai/) |
-| 🇺🇸 **Inflection** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. Pi API keys are restricted/by-approval on free tier. | *Not configured yet* | [Normal Link](https://inflection.ai/) |
-| 🇺🇸 **Liquid** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. Host of Liquid Foundation Models (LFM). Developer trials on request. | *Not configured yet* | [Normal Link](https://www.liquid.ai/) |
-| 🌐 **Mancer** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Free tier with daily credits for uncensored roleplay models. Referral adds credits. | *Not configured yet* | [Referral Link]() / [Normal Link](https://mancer.tech/) |
+| 🇺🇸 **Groq** | Inference Provider | 🇺🇸 | ✅ Yes | Free tier, no credit card. Ultra-fast LPU inference. [^2] | *Not configured / Features listed below* | [Normal Link](https://console.groq.com/keys) |
+| 🇦🇪 **Inception** | First-Party | 🇦🇪 | ✅ Yes | Not configured yet. Host of Arabic-centric models (JAIS). Trials available on request. | *Not configured / Features listed below* | [Normal Link](https://www.g42.ai/) |
+| 🇺🇸 **Inceptron** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Developer API for model workflows with introductory credits. | *Not configured / Features listed below* | [Normal Link](https://inceptron.com/) |
+| 🇺🇸 **Infermatic** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Open source large models hosted with free tier options. | *Not configured / Features listed below* | [Normal Link](https://infermatic.ai/) |
+| 🇺🇸 **Inflection** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. Pi API keys are restricted/by-approval on free tier. | *Not configured / Features listed below* | [Normal Link](https://inflection.ai/) |
+| 🇺🇸 **Liquid** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. Host of Liquid Foundation Models (LFM). Developer trials on request. | *Not configured / Features listed below* | [Normal Link](https://www.liquid.ai/) |
+| 🌐 **Mancer** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Free tier with daily credits for uncensored roleplay models. Referral adds credits. | *Not configured / Features listed below* | [Referral Link]() / [Normal Link](https://mancer.tech/) |
 | 🇨🇳 **MiniMax** | First-Party | 🇨🇳 | ✅ Yes | Free API usage credits upon signup. Real-name verification may be required for full access. | `abab6.5-chat` | [Normal Link](https://platform.minimaxi.com/) |
 | 🇫🇷 **Mistral** | First-Party | 🇫🇷 | ✅ Yes | Free 'Experiment' plan: ~1B tokens/month, 1 RPS rate limit. Prompts may be used to improve models. | `mistral-large-latest`, `mistral-small-latest`, `codestral-latest` | [Normal Link](https://console.mistral.ai/api-keys) |
-| 🇨🇳 **Moonshot AI** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. Free credits on registration for Chinese developers. | *Not configured yet* | [Normal Link](https://platform.moonshot.cn/) |
+| 🇨🇳 **Moonshot AI** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. Free credits on registration for Chinese developers. | *Not configured / Features listed below* | [Normal Link](https://platform.moonshot.cn/) |
 | 🇺🇸 **Morph** | Inference Provider | 🇺🇸 | ✅ Yes | Free credits upon signup for database-aware agent execution and model testing. | `morph-model-1` | [Normal Link](https://www.morph.so/) |
-| 🇳🇱 **Nebius Token Factory** | Inference Provider | 🇳🇱 | ✅ Yes | Not configured yet. $10 free credits for GPU/inference. Startups get up to $5000. | *Not configured yet* | [Referral Link]() / [Normal Link](https://nebius.ai/) |
-| 🇺🇸 **NextBit** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Infrastructure hosting with initial developer credits. | *Not configured yet* | [Normal Link](https://nextbit.ai/) |
+| 🇳🇱 **Nebius Token Factory** | Inference Provider | 🇳🇱 | ✅ Yes | Not configured yet. $10 free credits for GPU/inference. Startups get up to $5000. | *Not configured / Features listed below* | [Referral Link]() / [Normal Link](https://nebius.ai/) |
+| 🇺🇸 **NextBit** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Infrastructure hosting with initial developer credits. | *Not configured / Features listed below* | [Normal Link](https://nextbit.ai/) |
 | 🇺🇸 **NovitaAI** | Inference Provider | 🇺🇸 | ✅ Yes | $0.50 in free API credits on registration. Invite users via referral to earn $20+ per referral. | `llama-3.1-8b-instruct`, `llama-3.1-70b-instruct` | [Referral Link]() / [Normal Link](https://novita.ai/) |
-| 🇺🇸 **OpenAI** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. $5 in free credits for new accounts (valid for 3 months). | *Not configured yet* | [Normal Link](https://platform.openai.com/) |
-| 🇺🇸 **OpenInference** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Monitoring frameworks for LLMs. | *Not configured yet* | [Normal Link](https://openinference.io/) |
+| 🇺🇸 **OpenAI** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. $5 in free credits for new accounts (valid for 3 months). | *Not configured / Features listed below* | [Normal Link](https://platform.openai.com/) |
 | 🌐 **OpenRouter** | Inference Provider | 🌐 | ✅ Yes | 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up) | `nex-n2-pro:free`, `nemotron-3.5-content-safety:free`, `nemotron-3-ultra-550b-a55b:free` (+12 more) | [Normal Link](https://openrouter.ai/keys) |
 | 🇺🇸 **Parasail** | Inference Provider | 🇺🇸 | ✅ Yes | Deploys LLM inference with small free credit allowances upon registration. | `llama-3-8b` | [Normal Link](https://parasail.io/) |
-| 🇺🇸 **Perceptron** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Agent frameworks with free credits on registration. | *Not configured yet* | [Normal Link](https://perceptron.ai/) |
 | 🇺🇸 **Perplexity** | Inference Provider | 🇺🇸 | ✅ Yes | $5/month API credit included with Perplexity Pro subscriptions. Referral gives $10 off Pro subscriptions. | `llama-3-sonar-large-32k-online` | [Referral Link]() / [Normal Link](https://www.perplexity.ai/pro) |
-| 🌐 **Phala** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Decentralized TEE hosting. Free compute for developers. | *Not configured yet* | [Normal Link](https://phala.network/) |
-| 🇫🇷 **Poolside** | First-Party | 🇫🇷 | ✅ Yes | Not configured yet. Coding models. Sandbox testing available for developers. | *Not configured yet* | [Normal Link](https://poolside.ai/) |
-| 🇺🇸 **Reka AI** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. Developer API for multimodal models with starting credits. | *Not configured yet* | [Normal Link](https://www.reka.ai/) |
-| 🇺🇸 **Relace** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Fine-tuning API services. | *Not configured yet* | [Normal Link](https://relace.co/) |
+| 🇫🇷 **Poolside** | First-Party | 🇫🇷 | ✅ Yes | Not configured yet. Coding models. Sandbox testing available for developers. | *Not configured / Features listed below* | [Normal Link](https://poolside.ai/) |
+| 🇺🇸 **Reka AI** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. Developer API for multimodal models with starting credits. | *Not configured / Features listed below* | [Normal Link](https://www.reka.ai/) |
 | 🇺🇸 **SambaNova** | Inference Provider | 🇺🇸 | ✅ Yes | Permanently free tier for Llama 3.1 models. 20 RPM, 200K tokens/day limit. | `Llama-3.1-8B-Instruct`, `Llama-3.1-70B-Instruct`, `Llama-3.1-405B-Instruct` | [Normal Link](https://cloud.sambanova.ai/) |
 | 🇨🇳 **SiliconFlow** | Inference Provider | 🇨🇳 | ✅ Yes | Permanently free models (DeepSeek, Qwen). Real-name verification grants additional credits. Referral grants registration bonuses. | `DeepSeek-V3`, `Qwen2.5-Coder-7B-Instruct` | [Referral Link]() / [Normal Link](https://siliconflow.cn/zh-cn/) |
-| 🇨🇳 **StepFun** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. Free credits on registration for Chinese developers. | *Not configured yet* | [Normal Link](https://platform.stepfun.com/) |
-| 🇺🇸 **Switchpoint** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Model routing API. | *Not configured yet* | [Normal Link](https://switchpoint.ai/) |
-| 🇺🇸 **Together** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. $5 free credits upon developer account creation. | *Not configured yet* | [Normal Link](https://together.ai/) |
-| 🌐 **Venice** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Privacy-focused inference. Give $10 Pro credit, Get $10 Pro credit referral program. | *Not configured yet* | [Referral Link]() / [Normal Link](https://venice.ai/) |
-| 🇺🇸 **Wafer** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Compute infrastructure. | *Not configured yet* | [Normal Link](https://wafer.ai/) |
-| 🇺🇸 **Weights & Biases** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Free personal tier for tracking machine learning experiments, logging datasets, and staging models. | *Not configured yet* | [Normal Link](https://wandb.ai/) |
-| 🇨🇳 **Xiaomi** | First-Party | 🇨🇳 | ❌ No (SDK needed) | Xiaoai API access for registered Xiaomi developers. Requires approval. | *Not configured yet* | [Normal Link](https://xiaoai.mi.com/) |
-| 🇨🇳 **Z.ai** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. GLM models free tier catalog access. | *Not configured yet* | [Normal Link](https://open.bigmodel.cn/) |
-| 🌐 **io.net** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Decentralized GPU network requiring IO tokens/auth. | *Not configured yet* | [Normal Link](https://io.net/) |
-| 🇺🇸 **xAI** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. Offers trial credits for new developer registrations occasionally. | *Not configured yet* | [Normal Link](https://console.x.ai/) |
+| 🇨🇳 **StepFun** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. Free credits on registration for Chinese developers. | *Not configured / Features listed below* | [Normal Link](https://platform.stepfun.com/) |
+| 🇺🇸 **Together** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. $5 free credits upon developer account creation. | *Not configured / Features listed below* | [Normal Link](https://together.ai/) |
+| 🌐 **Venice** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Privacy-focused inference. Give $10 Pro credit, Get $10 Pro credit referral program. | *Not configured / Features listed below* | [Referral Link]() / [Normal Link](https://venice.ai/) |
+| 🇨🇳 **Xiaomi** | First-Party | 🇨🇳 | ❌ No (SDK needed) | Xiaoai API access for registered Xiaomi developers. Requires approval. | *Not configured / Features listed below* | [Normal Link](https://xiaoai.mi.com/) |
+| 🇨🇳 **Z.ai** | First-Party | 🇨🇳 | ✅ Yes | Not configured yet. GLM models free tier catalog access. | *Not configured / Features listed below* | [Normal Link](https://open.bigmodel.cn/) |
+| 🇺🇸 **xAI** | First-Party | 🇺🇸 | ✅ Yes | Not configured yet. Offers trial credits for new developer registrations occasionally. | *Not configured / Features listed below* | [Normal Link](https://console.x.ai/) |
+
+## 📌 Free Search Engine APIs
+
+| Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 🇺🇸 **Brave Search API** | First-Party | 🇺🇸 | ❌ No (SDK needed) | $5 monthly free credit (effectively 1,000 search queries/month free). High-quality search engine index. | *Not configured / Features listed below* | [Normal Link](https://brave.com/search/api/) |
+| 🇺🇸 **Google Custom Search JSON API** | First-Party | 🇺🇸 | ❌ No (SDK needed) | 100 search queries per day for free. Subject to GCP console key setup. | *Not configured / Features listed below* | [Normal Link](https://developers.google.com/custom-search/v1/overview) |
+
+## 📌 Speech-to-Text & Transcription APIs
+
+| Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 🇺🇸 **AssemblyAI API** | First-Party | 🇺🇸 | ❌ No (SDK needed) | $50 in free trial credits on registration for pre-recorded and streaming speech-to-text models. | *Not configured / Features listed below* | [Normal Link](https://www.assemblyai.com/) |
+| 🇺🇸 **Deepgram API** | First-Party | 🇺🇸 | ❌ No (SDK needed) | $200 in free trial credits on signup (lasts for 1 year). Advanced speech-to-text transcription models. | *Not configured / Features listed below* | [Normal Link](https://deepgram.com/) |
+
+## 📌 CLI & AI Developer Tools
+
+| Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 📰 **BlogWatcher CLI** | First-Party | 📰 | ❌ No (SDK needed) | Command-line tool to register, track, scan, and notify new blog and RSS feed updates on the fly. | *Not configured / Features listed below* | [Normal Link](https://github.com/) |
+| ⚡ **Hermes Agent CLI** | First-Party | ⚡ | ❌ No (SDK needed) | Local command-line wrapper enabling background agent task runs, persistent environments, and pairing triggers. | *Not configured / Features listed below* | [Normal Link](https://github.com/) |
+| 🦙 **Ollama** | First-Party | 🦙 | ✅ Yes | Fully local and permanently free. Run model architectures like Llama, Qwen, Mistral, and Gemma on local CPU/GPU. | *Not configured / Features listed below* | [Normal Link](https://ollama.com/) |
+| 🤖 **Qoder** | First-Party | 🤖 | ❌ No (SDK needed) | Local developer utility for AI assistance, code generation, and terminal integration. | *Not configured / Features listed below* | [Normal Link](https://qoder.io/) |
+| 💬 **WaCLI** | First-Party | 💬 | ❌ No (SDK needed) | WhatsApp CLI tool for sending, syncing, and alerting messages directly from the server command-line. | *Not configured / Features listed below* | [Normal Link](https://github.com/topics/whatsapp-cli) |
+
+## 📌 Browser-Based & Sandbox Tools
+
+| Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 🔍 **ChangeDetection.io** | First-Party | 🔍 | ❌ No (SDK needed) | Self-hosted web container allowing CAPTCHA-solving, automated content diff alerts, and webhook triggers. | *Not configured / Features listed below* | [Normal Link](https://changedetection.io/) |
+| 🌐 **Novita AI Sandbox Browser** | First-Party | 🌐 | ❌ No (SDK needed) | Secure, cloud-hosted browser environment allowing automated scraping, Playwright runtimes, and captcha-bypasses. | *Not configured / Features listed below* | [Normal Link](https://novita.ai/products/sandbox) |
+
+## 📌 Other Free API Resources
+
+| Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 🇺🇸 **Akamai Cloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. Linode/Akamai cloud hosting referral rewards $100 for 60 days to new users. | *Not configured / Features listed below* | [Referral Link]() / [Normal Link](https://www.linode.com/) |
+| 🇺🇸 **Azure Cloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. General Azure cloud $200 trial credits. | *Not configured / Features listed below* | [Normal Link](https://azure.microsoft.com/) |
+| 🇺🇸 **DigitalOcean** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. Referral program gives new users $200 for 60 days. | *Not configured / Features listed below* | [Referral Link]() / [Normal Link](https://www.digitalocean.com/) |
+| 🇺🇸 **GMICloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. GPU Cloud provider with small trial allowances. | *Not configured / Features listed below* | [Normal Link](https://gmicloud.com/) |
+| 🇺🇸 **OpenInference** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Monitoring frameworks for LLMs. | *Not configured / Features listed below* | [Normal Link](https://openinference.io/) |
+| 🇺🇸 **Perceptron** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Agent frameworks with free credits on registration. | *Not configured / Features listed below* | [Normal Link](https://perceptron.ai/) |
+| 🌐 **Phala** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Decentralized TEE hosting. Free compute for developers. | *Not configured / Features listed below* | [Normal Link](https://phala.network/) |
+| 🇺🇸 **Relace** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Fine-tuning API services. | *Not configured / Features listed below* | [Normal Link](https://relace.co/) |
+| 🇺🇸 **Switchpoint** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Model routing API. | *Not configured / Features listed below* | [Normal Link](https://switchpoint.ai/) |
+| 🇺🇸 **Wafer** | Inference Provider | 🇺🇸 | ✅ Yes | Not configured yet. Compute infrastructure. | *Not configured / Features listed below* | [Normal Link](https://wafer.ai/) |
+| 🇺🇸 **Weights & Biases** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Free personal tier for tracking machine learning experiments, logging datasets, and staging models. | *Not configured / Features listed below* | [Normal Link](https://wandb.ai/) |
+| 🌐 **io.net** | Inference Provider | 🌐 | ✅ Yes | Not configured yet. Decentralized GPU network requiring IO tokens/auth. | *Not configured / Features listed below* | [Normal Link](https://io.net/) |
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (26 models detected on 2026-06-17 23:57:45):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (26 models detected on 2026-06-17 23:58:39):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -131,7 +169,7 @@
 ### 🇺🇸 Amazon Bedrock
 - **Normal Link**: [Link](https://aws.amazon.com/bedrock/)
 - **Rules & Conditions**: AWS Free Tier includes access to Bedrock with limits on specific models for 12 months. Requires AWS account with billing info.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `meta.llama3-8b-instruct-v1:0`
   - `anthropic.claude-3-haiku-20240307-v1:0`
 
@@ -142,6 +180,10 @@
 ### 🇺🇸 Arcee AI
 - **Normal Link**: [Link](https://www.arcee.ai/)
 - **Rules & Conditions**: Not configured yet. SLM platform for fine-tuning and hosting custom model sizes.
+
+### 🇺🇸 AssemblyAI API
+- **Normal Link**: [Link](https://www.assemblyai.com/)
+- **Rules & Conditions**: $50 in free trial credits on registration for pre-recorded and streaming speech-to-text models.
 
 ### 🇺🇸 AtlasCloud
 - **Normal Link**: [Link](https://atlascloud.io/)
@@ -163,16 +205,28 @@
 - **Normal Link**: [Link](https://www.baseten.co/)
 - **OpenAI Base URL**: `https://bridge.baseten.co/v1`
 - **Rules & Conditions**: $10 in free GPU credits upon registration for model deployment and cold-start testing.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `meta-llama/Llama-3-8B-Instruct`
+
+### 📰 BlogWatcher CLI
+- **Normal Link**: [Link](https://github.com/)
+- **Rules & Conditions**: Command-line tool to register, track, scan, and notify new blog and RSS feed updates on the fly.
+
+### 🇺🇸 Brave Search API
+- **Normal Link**: [Link](https://brave.com/search/api/)
+- **Rules & Conditions**: $5 monthly free credit (effectively 1,000 search queries/month free). High-quality search engine index.
 
 ### 🇺🇸 Cerebras
 - **Normal Link**: [Link](https://cloud.cerebras.ai/)
 - **OpenAI Base URL**: `https://api.cerebras.ai/v1`
 - **Rules & Conditions**: Free tier with 1M tokens/day and ultra-fast inference. 8K context limit on free tier. 30 RPM, 14,400 RPD.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `llama3.1-8b`
   - `llama3.1-70b`
+
+### 🔍 ChangeDetection.io
+- **Normal Link**: [Link](https://changedetection.io/)
+- **Rules & Conditions**: Self-hosted web container allowing CAPTCHA-solving, automated content diff alerts, and webhook triggers.
 
 ### 🇺🇸 Chutes
 - **Normal Link**: [Link](https://chutes.ai/)
@@ -186,7 +240,7 @@
 - **Normal Link**: [Link](https://dash.cloudflare.com/)
 - **OpenAI Base URL**: `https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run`
 - **Rules & Conditions**: 10,000 free Neurons per day across 50+ models. No credit card required.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `@cf/meta/llama-3-8b-instruct`
 
 ### 🇨🇦 Cohere
@@ -209,6 +263,10 @@
 - **OpenAI Base URL**: `https://api.deepseek.com`
 - **Rules & Conditions**: Not configured yet. 5M free tokens upon registration, valid for 1 month.
 
+### 🇺🇸 Deepgram API
+- **Normal Link**: [Link](https://deepgram.com/)
+- **Rules & Conditions**: $200 in free trial credits on signup (lasts for 1 year). Advanced speech-to-text transcription models.
+
 ### 🇺🇸 DigitalOcean
 - **Referral Link**: [Link]()
 - **Normal Link**: [Link](https://www.digitalocean.com/)
@@ -218,7 +276,7 @@
 - **Normal Link**: [Link](https://fireworks.ai/)
 - **OpenAI Base URL**: `https://api.fireworks.ai/inference/v1`
 - **Rules & Conditions**: $1 in free trial credits upon signup. Pay-as-you-go thereafter.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `accounts/fireworks/models/llama-v3p1-405b-instruct`
 
 ### 🇰🇷 Friendli
@@ -233,10 +291,14 @@
 - **Normal Link**: [Link](https://aistudio.google.com/app/apikey)
 - **Rules & Conditions**: Not configured yet. Gemini 1.5 Flash: 15 RPM, Gemini 1.5 Pro: 5 RPM.
 
+### 🇺🇸 Google Custom Search JSON API
+- **Normal Link**: [Link](https://developers.google.com/custom-search/v1/overview)
+- **Rules & Conditions**: 100 search queries per day for free. Subject to GCP console key setup.
+
 ### 🇺🇸 Google Vertex
 - **Normal Link**: [Link](https://cloud.google.com/vertex-ai)
 - **Rules & Conditions**: $300 in free trial credits for new Google Cloud accounts. Rate limits subject to GCP tier.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `gemini-1.5-flash`
   - `gemini-1.5-pro`
 
@@ -244,6 +306,10 @@
 - **Normal Link**: [Link](https://console.groq.com/keys)
 - **OpenAI Base URL**: `https://api.groq.com/openai/v1`
 - **Rules & Conditions**: Free tier, no credit card. Ultra-fast LPU inference. [^2]
+
+### ⚡ Hermes Agent CLI
+- **Normal Link**: [Link](https://github.com/)
+- **Rules & Conditions**: Local command-line wrapper enabling background agent task runs, persistent environments, and pairing triggers.
 
 ### 🇦🇪 Inception
 - **Normal Link**: [Link](https://www.g42.ai/)
@@ -274,14 +340,14 @@
 - **Normal Link**: [Link](https://platform.minimaxi.com/)
 - **OpenAI Base URL**: `https://api.minimax.chat/v1`
 - **Rules & Conditions**: Free API usage credits upon signup. Real-name verification may be required for full access.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `abab6.5-chat`
 
 ### 🇫🇷 Mistral
 - **Normal Link**: [Link](https://console.mistral.ai/api-keys)
 - **OpenAI Base URL**: `https://api.mistral.ai/v1`
 - **Rules & Conditions**: Free 'Experiment' plan: ~1B tokens/month, 1 RPS rate limit. Prompts may be used to improve models.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `mistral-large-latest`
   - `mistral-small-latest`
   - `codestral-latest`
@@ -293,7 +359,7 @@
 ### 🇺🇸 Morph
 - **Normal Link**: [Link](https://www.morph.so/)
 - **Rules & Conditions**: Free credits upon signup for database-aware agent execution and model testing.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `morph-model-1`
 
 ### 🇳🇱 Nebius Token Factory
@@ -305,14 +371,23 @@
 - **Normal Link**: [Link](https://nextbit.ai/)
 - **Rules & Conditions**: Not configured yet. Infrastructure hosting with initial developer credits.
 
+### 🌐 Novita AI Sandbox Browser
+- **Normal Link**: [Link](https://novita.ai/products/sandbox)
+- **Rules & Conditions**: Secure, cloud-hosted browser environment allowing automated scraping, Playwright runtimes, and captcha-bypasses.
+
 ### 🇺🇸 NovitaAI
 - **Referral Link**: [Link]()
 - **Normal Link**: [Link](https://novita.ai/)
 - **OpenAI Base URL**: `https://api.novita.ai/v1`
 - **Rules & Conditions**: $0.50 in free API credits on registration. Invite users via referral to earn $20+ per referral.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `meta-llama/llama-3.1-8b-instruct`
   - `meta-llama/llama-3.1-70b-instruct`
+
+### 🦙 Ollama
+- **Normal Link**: [Link](https://ollama.com/)
+- **OpenAI Base URL**: `http://localhost:11434/v1`
+- **Rules & Conditions**: Fully local and permanently free. Run model architectures like Llama, Qwen, Mistral, and Gemma on local CPU/GPU.
 
 ### 🇺🇸 OpenAI
 - **Normal Link**: [Link](https://platform.openai.com/)
@@ -327,7 +402,7 @@
 - **Normal Link**: [Link](https://openrouter.ai/keys)
 - **OpenAI Base URL**: `https://openrouter.ai/api/v1`
 - **Rules & Conditions**: 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up)
-- **Supported Models**:
+- **Supported Models / Features**:
   - `nex-agi/nex-n2-pro:free`
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
@@ -347,7 +422,7 @@
 ### 🇺🇸 Parasail
 - **Normal Link**: [Link](https://parasail.io/)
 - **Rules & Conditions**: Deploys LLM inference with small free credit allowances upon registration.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `llama-3-8b`
 
 ### 🇺🇸 Perceptron
@@ -359,7 +434,7 @@
 - **Normal Link**: [Link](https://www.perplexity.ai/pro)
 - **OpenAI Base URL**: `https://api.perplexity.ai`
 - **Rules & Conditions**: $5/month API credit included with Perplexity Pro subscriptions. Referral gives $10 off Pro subscriptions.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `llama-3-sonar-large-32k-online`
 
 ### 🌐 Phala
@@ -369,6 +444,10 @@
 ### 🇫🇷 Poolside
 - **Normal Link**: [Link](https://poolside.ai/)
 - **Rules & Conditions**: Not configured yet. Coding models. Sandbox testing available for developers.
+
+### 🤖 Qoder
+- **Normal Link**: [Link](https://qoder.io/)
+- **Rules & Conditions**: Local developer utility for AI assistance, code generation, and terminal integration.
 
 ### 🇺🇸 Reka AI
 - **Normal Link**: [Link](https://www.reka.ai/)
@@ -382,7 +461,7 @@
 - **Normal Link**: [Link](https://cloud.sambanova.ai/)
 - **OpenAI Base URL**: `https://api.sambanova.ai/v1`
 - **Rules & Conditions**: Permanently free tier for Llama 3.1 models. 20 RPM, 200K tokens/day limit.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `Llama-3.1-8B-Instruct`
   - `Llama-3.1-70B-Instruct`
   - `Llama-3.1-405B-Instruct`
@@ -392,7 +471,7 @@
 - **Normal Link**: [Link](https://siliconflow.cn/zh-cn/)
 - **OpenAI Base URL**: `https://api.siliconflow.cn/v1`
 - **Rules & Conditions**: Permanently free models (DeepSeek, Qwen). Real-name verification grants additional credits. Referral grants registration bonuses.
-- **Supported Models**:
+- **Supported Models / Features**:
   - `deepseek-ai/DeepSeek-V3`
   - `Qwen/Qwen2.5-Coder-7B-Instruct`
 
@@ -414,6 +493,10 @@
 - **Normal Link**: [Link](https://venice.ai/)
 - **OpenAI Base URL**: `https://api.venice.ai/api/v1`
 - **Rules & Conditions**: Not configured yet. Privacy-focused inference. Give $10 Pro credit, Get $10 Pro credit referral program.
+
+### 💬 WaCLI
+- **Normal Link**: [Link](https://github.com/topics/whatsapp-cli)
+- **Rules & Conditions**: WhatsApp CLI tool for sending, syncing, and alerting messages directly from the server command-line.
 
 ### 🇺🇸 Wafer
 - **Normal Link**: [Link](https://wafer.ai/)
@@ -449,4 +532,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-06-17 23:57:45 (IST) | Build ID: 20260617235745*
+*Last updated: 2026-06-17 23:58:39 (IST) | Build ID: 20260617235839*
