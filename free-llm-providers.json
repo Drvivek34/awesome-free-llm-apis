@@ -339,7 +339,7 @@
       "type": "cloud",
       "category": "llm",
       "openai_compatible": true,
-      "quota": "New users receive a free token quota valid for 90 days after activation, restricted to real-time model inference in the Singapore region (does not cover batch calls, fine-tuning, or context caching). The permanent free developer API access was retired in April 2026. Paid options are pay-as-you-go (token consumption-based) and dedicated monthly Coding Plans (Lite and Pro) for AI coding assistant.",
+      "quota": "Provides DashScope / Model Studio developer APIs and AI Coding Plans. New users receive a free token quota valid for 90 days (Singapore region only, sk- keys). Standard DashScope API is pay-as-you-go based on token usage. The AI Coding Plan is a fixed-price monthly subscription (Lite/Pro, sk-sp- keys) providing flat-rate prompt limits instead of token billing.",
       "models": [
         "Qwen3.7-Max",
         "Qwen3.7-Plus",
@@ -358,7 +358,7 @@
       "type": "first-party",
       "category": "llm",
       "openai_compatible": false,
-      "quota": "Claude.ai interactive chat offers a permanent free tier with usage limits capped on a rolling 5-hour window (approx. 30-50 messages). The developer API has no permanent free tier but provides a small one-time starter credit upon account creation. Paid options include Claude.ai Pro ($20/month), Max ($100-$200/month), and consumption-based developer API billing (e.g., Opus: $5/MTok input, $25/MTok output; Sonnet: $3/MTok input, $15/MTok output).",
+      "quota": "Claude.ai interactive chat offers a permanent free tier with usage limits capped on a rolling 5-hour window. The developer API has no permanent free tier but provides a small one-time starter credit upon account creation. Paid options include Claude.ai Pro ($20/month) and consumption-based developer API billing. The CLAUDE_CODE_OAUTH_TOKEN environment variable can be used to authenticate coding tasks via Anthropic's OAuth device flow.",
       "models": [
         "Claude 4.6 Sonnet",
         "Claude 4.7 Opus",
@@ -577,21 +577,22 @@
       ]
     },
     {
-      "name": "GMICloud",
+      "name": "GMI Cloud",
       "emoji": "\ud83c\uddfa\ud83c\uddf8",
       "url": "https://gmicloud.com/",
       "referral_url": "",
       "has_referral": false,
       "type": "cloud",
-      "category": "other",
-      "openai_compatible": false,
-      "quota": "No public free tier. Pay-as-you-go model with transparent pricing based on GPU hardware (e.g., NVIDIA H100, B200, GB200) and service type. Serverless endpoints are billed per-token, while dedicated endpoints use on-demand hourly rates or longer-term cluster reservations.",
+      "category": "llm",
+      "openai_compatible": true,
+      "quota": "High-performance GPU cloud. No public permanent free tier. Offers free access to specific model endpoints (e.g. Llama 3.3, DeepSeek R1) for inference on the Model Hub dashboard. Paid options use a pay-as-you-go model with transparent pricing based on GPU hardware (e.g. NVIDIA H100, B200) and service type.",
       "models": [
         "DeepSeek",
         "Llama",
         "Qwen",
         "Flux"
-      ]
+      ],
+      "base_url": "https://api.gmicloud.ai/v1"
     },
     {
       "name": "Google AI Studio",
@@ -1241,7 +1242,306 @@
         "liquid/lfm-2.5-1.2b-thinking:free",
         "liquid/lfm-2.5-1.2b-instruct:free"
       ]
+    },
+    {
+      "name": "NVIDIA NIM",
+      "emoji": "\ud83d\udfe2",
+      "url": "https://build.nvidia.com",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "inference",
+      "category": "llm",
+      "openai_compatible": true,
+      "base_url": "https://integrate.api.nvidia.com/v1",
+      "quota": "Provides free developer access to hosted NIM APIs for development, prototyping, and testing (no credit card required, never expires). Subject to model-specific rate limits (approx. 40 RPM). Strictly for development and testing. Paid options require self-hosting NIM containers under an NVIDIA AI Enterprise license.",
+      "models": [
+        "meta/llama-3.3-70b-instruct",
+        "nvidia/nemotron-4-340b-instruct",
+        "deepseek-ai/deepseek-r1"
+      ]
+    },
+    {
+      "name": "Ollama Cloud",
+      "emoji": "\u2601\ufe0f",
+      "url": "https://ollama.com/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "inference",
+      "category": "llm",
+      "openai_compatible": true,
+      "quota": "Hosted cloud service for Ollama models. Free tier ($0/month) provides access to a selection of cloud-enabled models, subject to base limits based on actual GPU compute/execution time rather than tokens. Paid plans: Pro ($20/month, 50x usage, 3 concurrent cloud models) and Max ($100/month, 5x Pro usage, 10 concurrent cloud models).",
+      "models": [
+        "Llama 3.3",
+        "Qwen 2.5",
+        "Mistral Small"
+      ],
+      "base_url": "https://api.ollama.com"
+    },
+    {
+      "name": "Kilocode",
+      "emoji": "\ud83d\udcbb",
+      "url": "https://kilo.ai/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "inference",
+      "category": "llm",
+      "openai_compatible": true,
+      "quota": "AI-native gateway and assistant platform. Auto Free Tier routes to free models (e.g., Llama 3.1 8B, Qwen 2.5 7B) through Kilo Gateway. Supports Bring Your Own Key (BYOK) to route to user's OpenAI, Anthropic, or Gemini keys for free or paid usage. Paid Kilo Pass subscriptions start at $19/month (Starter) to $199/month (Expert) for hosted model credits.",
+      "models": [
+        "kilo-free",
+        "Llama series",
+        "Qwen series"
+      ]
+    },
+    {
+      "name": "Firecrawl",
+      "emoji": "\ud83d\udd25",
+      "url": "https://www.firecrawl.dev/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "search",
+      "openai_compatible": false,
+      "quota": "Web scraping, crawling, and AI-powered extraction API. Free tier provides 500 to 1,000 credits/month (no credit card required) for evaluation. Paid plans start at $19/month (Hobby, 3,000 credits) to $599/month (Scale). Operations consume credits based on complexity (e.g. AI extract/stealth proxies cost more). Also available as a free self-hosted open-source version (Docker Compose) with custom FIRECRAWL_API_URL environment overrides.",
+      "models": [
+        "Scraping API",
+        "Crawling API",
+        "AI Extraction API"
+      ]
+    },
+    {
+      "name": "Exa",
+      "emoji": "\ud83d\udd0d",
+      "url": "https://exa.ai/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "search",
+      "openai_compatible": false,
+      "quota": "AI-native web search and content extraction engine. Free tier provides 1,000 free search queries/month for developer accounts (resets monthly, no credit card required). Paid plan starts at $20/month (includes 10,000 queries, overages at $0.002/query). Enterprise plans offer custom limits and dedicated endpoints. Includes search, contents/scraping, and similarity endpoints.",
+      "models": [
+        "Search API",
+        "Extract API",
+        "Similarity API"
+      ]
+    },
+    {
+      "name": "Parallel",
+      "emoji": "\u26a1",
+      "url": "https://parallel.ai/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "search",
+      "openai_compatible": false,
+      "quota": "AI-native search and extraction engine. Operates primarily on a pay-as-you-go consumption model with no standard monthly free tier for its hosted web APIs. Search requests are billed at ~$0.005/request and extraction at ~$0.001/request. The Parallel Search Model Context Protocol (MCP) server is free to run locally and does not require an API key.",
+      "models": [
+        "Search API",
+        "Extract API",
+        "Monitor API"
+      ]
+    },
+    {
+      "name": "Tavily",
+      "emoji": "\ud83d\udd75\ufe0f",
+      "url": "https://tavily.com/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "search",
+      "openai_compatible": false,
+      "quota": "AI-native search engine designed for LLMs. Free tier provides 1,000 search API queries/month (no credit card required, resets monthly). Billed by usage: Basic Search consumes 1 credit, Advanced Search consumes 2 credits, Extract consumes 1 credit/5 URLs. Paid plans: Pay-as-you-go at $0.008/credit, or monthly subscriptions starting at $15/month.",
+      "models": [
+        "Search API",
+        "Extract API",
+        "Crawl API"
+      ]
+    },
+    {
+      "name": "Browserbase",
+      "emoji": "\ud83c\udf10",
+      "url": "https://www.browserbase.com/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "browser_tools",
+      "openai_compatible": false,
+      "quota": "Managed cloud browser platform for web scraping and AI agents. Free plan offers 1 hour (60 minutes) of concurrent browser session usage per month (max 15 mins/session, 1 concurrent browser, 7-day data retention). Developer plan is $20/month for 100 browser hours and 1 GB proxy bandwidth, with pay-as-you-go overage billing at $0.12/hour.",
+      "models": [
+        "Cloud Browser Session",
+        "Session Recording",
+        "Captcha Solver"
+      ]
+    },
+    {
+      "name": "Fal.ai",
+      "emoji": "\ud83c\udfa8",
+      "url": "https://fal.ai/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "other",
+      "openai_compatible": false,
+      "quota": "High-performance generative media (image/video/audio) API. No permanent free tier. New developer signups receive up to $20 in one-time free credits (especially for business domains) to test models in the Playground. Paid usage is pay-per-use (prepaid credit model, charged per generated image/video/second). Research grants program is available for open-source AI.",
+      "models": [
+        "FLUX.1 series",
+        "Stable Diffusion 3.5",
+        "Cosmos Video"
+      ]
+    },
+    {
+      "name": "Krea",
+      "emoji": "\ud83d\udd8c\ufe0f",
+      "url": "https://www.krea.ai/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "other",
+      "openai_compatible": false,
+      "quota": "AI image and video generation platform. Web app offers a free plan with daily free credits (~50 generations/day). Developer API (via KREA_API_KEY) has no free tier and is billed independently via prepaid USD workspace balances on a per-generation cost model.",
+      "models": [
+        "Krea 2 Image Gen",
+        "Krea Video Gen"
+      ]
+    },
+    {
+      "name": "ElevenLabs",
+      "emoji": "\ud83d\udde3\ufe0f",
+      "url": "https://elevenlabs.io/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "transcription",
+      "openai_compatible": false,
+      "quota": "Premium AI speech synthesis and voice cloning. Free tier provides 10,000 characters/month (refreshes monthly) for personal use, limited to standard voices. Starter plan is $5/month ($1 first month, 30,000 characters, instant voice cloning). Paid plans range up to $330/month (Scale). Scribe STT offers a usage-based tier.",
+      "models": [
+        "Multilingual v2 (TTS)",
+        "Turbo v2.5 (TTS)",
+        "Scribe (STT)",
+        "Instant Voice Cloning"
+      ]
+    },
+    {
+      "name": "Voice Tools (OpenAI)",
+      "emoji": "\ud83c\udf99\ufe0f",
+      "url": "https://platform.openai.com/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "transcription",
+      "openai_compatible": false,
+      "quota": "Hermes audio transcription and speech integration using OpenAI Whisper (STT) and OpenAI TTS. Billed directly via the configured OpenAI API key (pay-as-you-go). Whisper is priced at $0.006/minute of audio. OpenAI TTS is priced at $15/M characters (Standard) and $30/M characters (HD).",
+      "models": [
+        "whisper-1",
+        "tts-1",
+        "tts-1-hd"
+      ]
+    },
+    {
+      "name": "Mistral API (Voxtral)",
+      "emoji": "\ud83e\udd16",
+      "url": "https://console.mistral.ai/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "transcription",
+      "openai_compatible": false,
+      "quota": "Hermes audio integration using Mistral's Voxtral speech-to-text and text-to-speech engine. Billed under the standard Mistral API billing structure (La Plateforme). STT and TTS are billed based on usage (characters synthesized or minutes transcribed).",
+      "models": [
+        "mistral-embed",
+        "voxtral-stt",
+        "voxtral-tts"
+      ]
+    },
+    {
+      "name": "Honcho",
+      "emoji": "\ud83e\udde0",
+      "url": "https://honcho.dev/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "cli_tools",
+      "openai_compatible": false,
+      "quota": "AI-native persistent memory library for stateful agents (developed by Plastic Labs). Licensed under AGPL-3.0 and completely free to self-host locally or via Docker, with standard configuration overrides (HONCHO_BASE_URL). The managed cloud service (api.honcho.dev) offers a free trial of $100 in start credits to new organizations.",
+      "models": [
+        "Agent Memory Storage"
+      ]
+    },
+    {
+      "name": "Langfuse",
+      "emoji": "\ud83d\udcca",
+      "url": "https://langfuse.com/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "other",
+      "openai_compatible": false,
+      "quota": "Open-source LLM engineering, tracing, and observability platform. Cloud Hobby plan is permanently free, including up to 50,000 tracing units/month, 30 days data retention, and 2 users. Langfuse Cloud Pro is $199/month. Standard self-hosted version is fully open-source (MIT License) with no usage limits, though enterprise SSO/RBAC require commercial licensing.",
+      "models": [
+        "LLM Observability Traces",
+        "Prompt Management",
+        "Datasets & Evaluations"
+      ]
+    },
+    {
+      "name": "Camofox",
+      "emoji": "\ud83e\udd8a",
+      "url": "https://github.com/camoufox/camoufox",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "browser_tools",
+      "openai_compatible": false,
+      "quota": "Open-source, headless anti-detection browser automation server designed for AI agents. Free to run and self-host locally or on own infrastructure (Docker/VPS) using the open-source Camoufox Firefox fork. Integrates with agents via local base URL overrides. Supports access security via custom CAMOFOX_API_KEY authentication tokens.",
+      "models": [
+        "Stealth Headless Firefox",
+        "Accessibility Snapshot API"
+      ]
+    },
+    {
+      "name": "Browser-use",
+      "emoji": "\ud83e\udd16",
+      "url": "https://browser-use.com/",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "browser_tools",
+      "openai_compatible": false,
+      "quota": "Agent browser automation library and cloud platform. Core Python library is open-source (MIT License) and completely free to run locally (user pays for LLM tokens). Managed Browser Use Cloud offers browser hosting infrastructure; includes a free tier for individual testing and prototyping. Paid Developer/Business plans scale concurrency, proxy bandwidth, and runtime.",
+      "models": [
+        "Agentic Browser Navigation",
+        "Managed Chromium Nodes"
+      ]
+    },
+    {
+      "name": "SearXNG",
+      "emoji": "\ud83d\udd0d",
+      "url": "https://github.com/searxng/searxng",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "search",
+      "openai_compatible": false,
+      "quota": "Free, open-source metasearch engine that aggregates results from more than 70 search services. Completely free to self-host (using Docker or local installation) with zero API keys required. Integrates with agents via setting the SEARXNG_URL environment variable to point to the self-hosted instance endpoint.",
+      "models": [
+        "Self-Hosted Metasearch API"
+      ]
+    },
+    {
+      "name": "GitHub API",
+      "emoji": "\ud83d\udc19",
+      "url": "https://github.com/settings/tokens",
+      "referral_url": "",
+      "has_referral": false,
+      "type": "first-party",
+      "category": "cli_tools",
+      "openai_compatible": false,
+      "quota": "GitHub API authentication token. Free accounts have standard API rate limits (60 requests/hour unauthenticated). Authenticating using a Personal Access Token (GITHUB_TOKEN) increases the rate limit to 5,000 requests/hour (up to 15,000 requests/hour for GitHub Enterprise/marketplace accounts). Used for Skills Hub publishing and repository syncing.",
+      "models": [
+        "GitHub REST API",
+        "GitHub GraphQL API"
+      ]
     }
   ],
-  "last_updated": "2026-06-18T00:11:26+05:30"
+  "last_updated": "2026-06-18T00:15:56+05:30"
 }

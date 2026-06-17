@@ -11,9 +11,9 @@
 | 🇮🇱 **AI21** | First-Party | 🇮🇱 | ✅ Yes | Offers a free trial of $10 in credits valid for three months upon account creation. No permanent free tier. Once credits are exhausted or expired, users must transition to a paid plan. Commercial API access is usage-based (pay-as-you-go). Model usage via third-party cloud providers (AWS Bedrock, Azure) is governed by their respective rates. | `Jamba 1.5 Large`, `Jamba 1.5 Mini`, `Jamba 1.6` | [Normal Link](https://www.ai21.com/) |
 | 🇮🇱 **AionLabs** | First-Party | 🇮🇱 | ✅ Yes | Offers a free tier with a recurring daily credit allowance (approx. 20,000 tokens per day) for testing agent jobs, APIs, and browser chat with no credit card required. Paid options include Prepaid (pay-as-you-go) and monthly Business plans. API is OpenAI-compatible and can also be accessed via Puter.js. | `Aion-2.0`, `Aion-1.0`, `Aion-1.0-Mini` | [Normal Link](https://www.aionlabs.ai/) |
 | 🌐 **AkashML** | Inference Provider | 🌐 | ✅ Yes | New users of the AkashML managed inference service receive $100 in free AI token credits for both playground and API usage. Additionally, the Akash Console for self-hosted container deployments offers a $100 free trial (requires credit card for verification, 24h limit per instance). Paid options are pay-per-use, operating as a decentralized marketplace with reverse auctions resulting in 60-85% savings compared to standard cloud providers. | `Llama 3.3 70B`, `DeepSeek V4 Flash`, `DeepSeek V3.2` (+1 more) | [Normal Link](https://akash.network/) |
-| 🇨🇳 **Alibaba Cloud Int.** | Cloud Provider | 🇨🇳 | ✅ Yes | New users receive a free token quota valid for 90 days after activation, restricted to real-time model inference in the Singapore region (does not cover batch calls, fine-tuning, or context caching). The permanent free developer API access was retired in April 2026. Paid options are pay-as-you-go (token consumption-based) and dedicated monthly Coding Plans (Lite and Pro) for AI coding assistant. | `Qwen3.7-Max`, `Qwen3.7-Plus`, `Qwen3.6-Plus` (+3 more) | [Normal Link](https://www.alibabacloud.com/) |
+| 🇨🇳 **Alibaba Cloud Int.** | Cloud Provider | 🇨🇳 | ✅ Yes | Provides DashScope / Model Studio developer APIs and AI Coding Plans. New users receive a free token quota valid for 90 days (Singapore region only, sk- keys). Standard DashScope API is pay-as-you-go based on token usage. The AI Coding Plan is a fixed-price monthly subscription (Lite/Pro, sk-sp- keys) providing flat-rate prompt limits instead of token billing. | `Qwen3.7-Max`, `Qwen3.7-Plus`, `Qwen3.6-Plus` (+3 more) | [Normal Link](https://www.alibabacloud.com/) |
 | 🇺🇸 **Amazon Bedrock** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | No permanent free tier. New AWS accounts receive up to $200 in promotional credits ($100 at signup, $100 via guided tasks) valid for 6 months. Startup programs offer $1,000 to $300,000+ in credits. Paid options: On-Demand pay-as-you-go per 1M tokens, Batch Inference (approx. 50% discount), and Provisioned Throughput (dedicated capacity billing). | `Anthropic Claude 3.5 Sonnet`, `Meta Llama 3.3`, `Amazon Titan` | [Normal Link](https://aws.amazon.com/bedrock/) |
-| 🇺🇸 **Anthropic** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Claude.ai interactive chat offers a permanent free tier with usage limits capped on a rolling 5-hour window (approx. 30-50 messages). The developer API has no permanent free tier but provides a small one-time starter credit upon account creation. Paid options include Claude.ai Pro ($20/month), Max ($100-$200/month), and consumption-based developer API billing (e.g., Opus: $5/MTok input, $25/MTok output; Sonnet: $3/MTok input, $15/MTok output). | `Claude 4.6 Sonnet`, `Claude 4.7 Opus`, `Claude 4.5 Haiku` | [Normal Link](https://console.anthropic.com/) |
+| 🇺🇸 **Anthropic** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Claude.ai interactive chat offers a permanent free tier with usage limits capped on a rolling 5-hour window. The developer API has no permanent free tier but provides a small one-time starter credit upon account creation. Paid options include Claude.ai Pro ($20/month) and consumption-based developer API billing. The CLAUDE_CODE_OAUTH_TOKEN environment variable can be used to authenticate coding tasks via Anthropic's OAuth device flow. | `Claude 4.6 Sonnet`, `Claude 4.7 Opus`, `Claude 4.5 Haiku` | [Normal Link](https://console.anthropic.com/) |
 | 🇺🇸 **Arcee AI** | First-Party | 🇺🇸 | ✅ Yes | Does not offer a traditional permanent free tier for its commercial API. However, the Trinity Builders Program offers free inference access for approved developer, research, and open-source projects. Otherwise, commercial API is pay-as-you-go (e.g., Trinity-Mini at ~$0.045/1M input tokens and ~$0.15/1M output tokens). Models are open-weight and can be downloaded for free local deployment. | `Trinity-Large-Thinking`, `Trinity-Large-Preview`, `Trinity-Mini` (+1 more) | [Normal Link](https://www.arcee.ai/) |
 | 🇺🇸 **AtlasCloud** | Inference Provider | 🇺🇸 | ✅ Yes | Provides a unified API to access over 300 models on a pay-as-you-go consumption model (e.g., DeepSeek V3 at $0.07/1M tokens). GPU Cloud instances start around $2.95/hr with per-second billing. Standard developer subscriptions are currently noted as unavailable, and evaluation credits/promotions vary dynamically within the console. | `DeepSeek V3`, `Kling`, `Seedance` (+1 more) | [Normal Link](https://atlascloud.io/) |
 | 🇺🇸 **Azure** | Cloud Provider | 🇺🇸 | ✅ Yes | Offers $200 free credits for the first 30 days, 12 months of popular free services, and 65+ always-free services (subject to monthly limits) for new accounts. Unused credits expire and require manual upgrade to Pay-As-You-Go. Azure for Students offers $100 credits without credit card verification. | `GPT-5.5 (Azure OpenAI)`, `GPT-5.4 (Azure OpenAI)`, `Llama (Foundry)` (+2 more) | [Normal Link](https://azure.microsoft.com/) |
@@ -29,6 +29,7 @@
 | 🇨🇳 **DeepSeek** | First-Party | 🇨🇳 | ✅ Yes | The web chat interface (chat.deepseek.com) is permanently free. The API does not have an ongoing free tier but offers 5 million free trial tokens for new developer accounts. Paid options follow a pay-as-you-go model: DeepSeek V4-Flash is priced at $0.14/1M input and $0.28/1M output tokens, and DeepSeek V4-Pro is priced at $0.435/1M input and $0.87/1M output tokens. Significant discounts are offered for cache hits. | `DeepSeek V4-Flash`, `DeepSeek V4-Pro` | [Normal Link](https://platform.deepseek.com/) |
 | 🇺🇸 **Fireworks** | Inference Provider | 🇺🇸 | ✅ Yes | No permanent free tier. Offers $1 in free starter credits for new signups. Paid options: Serverless pay-per-token pricing based on model size (sub-4B: $0.10/1M tokens, 4B-16B: $0.20/1M tokens, 16B+: $0.90/1M tokens). Offers 50% discount for cached input tokens and batch inference. | `Llama 3.3`, `Qwen 2.5`, `DeepSeek-V3` (+1 more) | [Normal Link](https://fireworks.ai/) |
 | 🇰🇷 **Friendli** | Inference Provider | 🇰🇷 | ✅ Yes | No permanent free plan. Offers substantial startup/promotional GPU inference credits ranging from $10,000 up to $50,000 to help teams scale. Otherwise uses usage-based pay-as-you-go pricing optimized for high-throughput production workloads. | `Llama 3.1`, `Gemma 2`, `Mistral` (+1 more) | [Normal Link](https://friendli.ai/) |
+| 🇺🇸 **GMI Cloud** | Cloud Provider | 🇺🇸 | ✅ Yes | High-performance GPU cloud. No public permanent free tier. Offers free access to specific model endpoints (e.g. Llama 3.3, DeepSeek R1) for inference on the Model Hub dashboard. Paid options use a pay-as-you-go model with transparent pricing based on GPU hardware (e.g. NVIDIA H100, B200) and service type. | `DeepSeek`, `Llama`, `Qwen` (+1 more) | [Normal Link](https://gmicloud.com/) |
 | 🇺🇸 **Google AI Studio** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Free tier available for the Gemini Developer API on non-billing-enabled projects, subject to RPM, TPM, and RPD rate limits (data may be used for model training). Access to Pro models on the free tier was restricted starting April 1, 2026. Enabling billing removes the free tier and transitions the project to pay-as-you-go pricing (prepaid billing for new users, with mandatory spend caps and context caching discounts). | `Gemini 1.5 Flash`, `Gemini 1.5 Pro`, `Gemini 2.5` (+1 more) | [Normal Link](https://aistudio.google.com/app/apikey) |
 | 🇺🇸 **Google Vertex** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | No permanent free tier. New Google Cloud accounts receive $300 in free credits valid for 90 days. Vertex AI Express Mode offers limited free access hours or agent engines in a 90-day window. Paid options are pay-as-you-go. (Google AI Studio provides a separate, rate-limited free tier for developer prototyping). | `Gemini 1.5 Pro`, `Gemini 1.5 Flash`, `Imagen 3` (+1 more) | [Normal Link](https://cloud.google.com/vertex-ai) |
 | 🇺🇸 **Groq** | Inference Provider | 🇺🇸 | ✅ Yes | Offers an always-free API tier (no credit card required) subject to organization-level rate limits (e.g., 30 RPM, 30,000 TPM, 14,400 RPD). Paid Developer Tier (pay-as-you-go) provides up to 10x higher rate limits, with input costs starting at $0.05/1M tokens (Llama 3.1 8B) up to $0.59 input / $0.79 output per 1M tokens (Llama 3.3 70B), plus a 50% discount for Batch API and prompt caching. | `Llama 3.1 8B`, `Llama 3.3 70B`, `Mixtral` (+2 more) | [Normal Link](https://console.groq.com/keys) |
@@ -36,15 +37,18 @@
 | 🇺🇸 **Inceptron** | Inference Provider | 🇺🇸 | ✅ Yes | No direct free tier. Operates strictly on consumption-based pricing designed for EU data sovereignty. Access is typically provided through third-party gateways (e.g., Kilo.ai or Requesty) using per-million-token pay-as-you-go billing (e.g., $0.15/1M input tokens for MiniMax M2.5). Custom pricing is available for startups and enterprises. | `MiniMax M2.5`, `Kimi K2.6`, `GLM 5.1` | [Normal Link](https://inceptron.com/) |
 | 🇺🇸 **Infermatic** | Inference Provider | 🇺🇸 | ✅ Yes | Structured around flat-rate subscription tiers rather than token-based billing. Includes a Free Plan ($0/mo for select models like Rocinante-12B), Essential Tier ($9/mo), Standard Tier ($16/mo), and Plus Tier ($20/mo for unrestricted prompts/results, zero-logs policy, and advanced models). | `Rocinante-12B-v1.1`, `Fallen Llama 3.3`, `Strawberrylemonade L3` (+2 more) | [Normal Link](https://infermatic.ai/) |
 | 🇺🇸 **Inflection** | First-Party | 🇺🇸 | ✅ Yes | The Pi consumer personal assistant app is completely free with no usage limits or premium tiers. The developer API operates on usage-based pricing (e.g., Inflection-3 billed at approx. $2.50 per million input tokens and $10.00 per million output tokens) with custom enterprise options. | `Inflection-3`, `Inflection-2.5`, `Pi` | [Normal Link](https://inflection.ai/) |
+| 💻 **Kilocode** | Inference Provider | 💻 | ✅ Yes | AI-native gateway and assistant platform. Auto Free Tier routes to free models (e.g., Llama 3.1 8B, Qwen 2.5 7B) through Kilo Gateway. Supports Bring Your Own Key (BYOK) to route to user's OpenAI, Anthropic, or Gemini keys for free or paid usage. Paid Kilo Pass subscriptions start at $19/month (Starter) to $199/month (Expert) for hosted model credits. | `kilo-free`, `Llama series`, `Qwen series` | [Normal Link](https://kilo.ai/) |
 | 🇺🇸 **Liquid** | First-Party | 🇺🇸 | ✅ Yes | Free self-service open access to download, customize, and deploy models (via Hugging Face or LEAP platform) under the LFM Open License v1.0, which has a commercial use threshold: free for companies under $10 million in annual revenue; companies above this must purchase a commercial license. Liquid Apollo is also free for mobile devices. Enterprise tiers offer custom agreements. | `LFM-1B`, `LFM-3B`, `LFM-40B` (+1 more) | [Normal Link](https://www.liquid.ai/) |
 | 🌐 **Mancer** | Inference Provider | 🌐 | ✅ Yes | No monthly subscription free tier. Provides access to select 'free models' for initial testing. Otherwise uses a pay-as-you-go system with credit packs ranging from $4.99 (~1.25M credits) to $249.99 (~100M credits). No subscription lock-in. A 25% token discount is available if users opt into Anonymous Logging (data sharing for training). | `Weaver (alpha)`, `Magnum v4 72B`, `ReMM SLERP 13B` (+1 more) | [Referral Link]() / [Normal Link](https://mancer.tech/) |
 | 🇨🇳 **MiniMax** | First-Party | 🇨🇳 | ✅ Yes | No permanent free tier. Provides limited trial credits to new developer accounts for testing. Paid options: Token Plan (monthly subscription starting at $10/month) or Pay-as-you-go (token packages starting at $5 for 5,000 credits). Standard rates for flagship models are typically around $0.30-$0.50/1M input tokens and $1.00-$1.20/1M output tokens. | `MiniMax-M3`, `MiniMax-M2.7`, `MiniMax-M2.5` (+1 more) | [Normal Link](https://platform.minimaxi.com/) |
 | 🇫🇷 **Mistral** | First-Party | 🇫🇷 | ✅ Yes | API (La Plateforme) offers a permanent Free Tier for evaluation and prototyping, subject to strict rate limits (e.g., 1 request/second global limit). Paid options: Scale plan (pay-as-you-go). Startup programs provide up to $30,000 in credits. Le Chat consumer chat service offers a free plan capped at ~25 messages/day and a Pro plan at $14.99/month. | `Mistral Medium 3.5`, `Mistral Small 4`, `Mistral Large 3` (+1 more) | [Normal Link](https://console.mistral.ai/api-keys) |
 | 🇨🇳 **Moonshot AI** | First-Party | 🇨🇳 | ✅ Yes | Kimi chat interface is free for casual users with query volume and context limits. Pro features (Agent Swarm, Deep Research) are available via monthly subscriptions: Moderato (~$19/mo), Allegretto, and Vivace (up to $199/mo). Developer API is pay-as-you-go ($0.55-$0.95 per million input, $2.50-$4.00 per million output tokens) with automatic context caching. Open-weight versions of Kimi K2 models are free to self-host. | `Kimi K2.6`, `Kimi K2.7`, `Moonshot-v1` | [Normal Link](https://platform.moonshot.cn/) |
 | 🇺🇸 **Morph** | Inference Provider | 🇺🇸 | ✅ Yes | Includes Morph LLM (developer assistant) which offers a free tier of 200 requests/month, and Morph Studio (video/image generation) which offers a free plan of 75 credits/month. Paid options: Morph LLM features Starter, Pro, and Scale plans with per-token billing (e.g., $0.80-$0.90/1M input tokens). Morph Studio plans start at ~$10/month (or $7/month billed annually) for 3,000 credits. | `Morph V3 Fast`, `Morph V3 Large`, `Morph-Video-1` (+1 more) | [Normal Link](https://www.morph.so/) |
+| 🟢 **NVIDIA NIM** | Inference Provider | 🟢 | ✅ Yes | Provides free developer access to hosted NIM APIs for development, prototyping, and testing (no credit card required, never expires). Subject to model-specific rate limits (approx. 40 RPM). Strictly for development and testing. Paid options require self-hosting NIM containers under an NVIDIA AI Enterprise license. | `llama-3.3-70b-instruct`, `nemotron-4-340b-instruct`, `deepseek-r1` | [Normal Link](https://build.nvidia.com) |
 | 🇳🇱 **Nebius Token Factory** | Inference Provider | 🇳🇱 | ✅ Yes | No permanent free tier. Provides free promotional credits upon account sign-up ('Start Free' model) to test over 60 open-source models in the Playground or via API. Paid usage is pay-per-token for serverless access, or billed by compute hours for dedicated endpoints. | `DeepSeek-V3`, `Qwen 2.5`, `Qwen 3` (+2 more) | [Referral Link]() / [Normal Link](https://nebius.ai/) |
 | 🇺🇸 **NextBit** | Inference Provider | 🇺🇸 | ✅ Yes | No public free tier. Operates on a pay-per-token serverless API platform or fixed-price dedicated instances for enterprise needs. | `Llama 3.3 70B`, `Qwen 2.5 72B`, `Llama 3.3 8B` | [Normal Link](https://nextbit.ai/) |
 | 🇺🇸 **NovitaAI** | Inference Provider | 🇺🇸 | ✅ Yes | No permanent free tier. New accounts receive $1 in free credits upon signup, with promotions offering up to $100 in Sandbox credits (valid for 90 days) or $10 for specific models. Startups can receive up to $10,000 in credits. Paid options: Pay-as-you-go based on token usage or hourly dedicated GPU instance hosting. | `Qwen3.7-Max`, `MiniMax-M3`, `Kimi K2.7 Code` (+1 more) | [Referral Link]() / [Normal Link](https://novita.ai/) |
+| ☁️ **Ollama Cloud** | Inference Provider | ☁️ | ✅ Yes | Hosted cloud service for Ollama models. Free tier ($0/month) provides access to a selection of cloud-enabled models, subject to base limits based on actual GPU compute/execution time rather than tokens. Paid plans: Pro ($20/month, 50x usage, 3 concurrent cloud models) and Max ($100/month, 5x Pro usage, 10 concurrent cloud models). | `Llama 3.3`, `Qwen 2.5`, `Mistral Small` | [Normal Link](https://ollama.com/) |
 | 🇺🇸 **OpenAI** | First-Party | 🇺🇸 | ✅ Yes | No permanent free API tier. New accounts receive a one-time trial credit (e.g., $5 to $18) expiring in 3 months. Users can opt into the Data Sharing Program to get a daily quota of free tokens on specific models (e.g., gpt-4o-mini, gpt-4.1-mini) in exchange for training data. General usage is pay-as-you-go per-token billing (e.g., GPT-5.5 at $5/1M input, $30/1M output; GPT-5.4-nano at $0.10-$0.20/1M input), with input caching and Batch API (50% off) discounts. | `GPT-5.5`, `GPT-5.4`, `GPT-5.4-mini` (+3 more) | [Normal Link](https://platform.openai.com/) |
 | 🌐 **OpenRouter** | Inference Provider | 🌐 | ✅ Yes | 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up) | `nex-n2-pro:free`, `nemotron-3.5-content-safety:free`, `nemotron-3-ultra-550b-a55b:free` (+12 more) | [Normal Link](https://openrouter.ai/keys) |
 | 🇺🇸 **Parasail** | Inference Provider | 🇺🇸 | ✅ Yes | Offers a 'Serverless - Free' tier for prototyping and testing, limited to 5 Requests Per Minute (RPM). Paid options: Pay-per-token serverless billing or hourly GPU instance billing, which typically requires a linked payment method and a $25 charging threshold. | `Qwen series`, `DeepSeek series`, `Llama series` | [Normal Link](https://parasail.io/) |
@@ -65,7 +69,12 @@
 | Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 🇺🇸 **Brave Search API** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Metered pricing model. Automatically provides $5 in free credits every month, covering approximately 1,000 free requests/month. The standard Search Plan is priced at $5 per 1,000 requests (includes Web, News, Images, LLM context). Answers Plan is priced at $4 per 1,000 queries plus token costs. | `Search API (No custom LLM models hosted)` | [Normal Link](https://brave.com/search/api/) |
+| 🔍 **Exa** | First-Party | 🔍 | ❌ No (SDK needed) | AI-native web search and content extraction engine. Free tier provides 1,000 free search queries/month for developer accounts (resets monthly, no credit card required). Paid plan starts at $20/month (includes 10,000 queries, overages at $0.002/query). Enterprise plans offer custom limits and dedicated endpoints. Includes search, contents/scraping, and similarity endpoints. | `Search API`, `Extract API`, `Similarity API` | [Normal Link](https://exa.ai/) |
+| 🔥 **Firecrawl** | First-Party | 🔥 | ❌ No (SDK needed) | Web scraping, crawling, and AI-powered extraction API. Free tier provides 500 to 1,000 credits/month (no credit card required) for evaluation. Paid plans start at $19/month (Hobby, 3,000 credits) to $599/month (Scale). Operations consume credits based on complexity (e.g. AI extract/stealth proxies cost more). Also available as a free self-hosted open-source version (Docker Compose) with custom FIRECRAWL_API_URL environment overrides. | `Scraping API`, `Crawling API`, `AI Extraction API` | [Normal Link](https://www.firecrawl.dev/) |
 | 🇺🇸 **Google Custom Search JSON API** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Closed to new signups. The API is in a sunset phase and will be fully discontinued on January 1, 2027. For existing customers, the free tier provides 100 queries/day. Additional queries cost $5 per 1,000 requests, up to a daily limit of 10,000 queries. | `Custom Search API (No LLM models hosted)` | [Normal Link](https://developers.google.com/custom-search/v1/overview) |
+| ⚡ **Parallel** | First-Party | ⚡ | ❌ No (SDK needed) | AI-native search and extraction engine. Operates primarily on a pay-as-you-go consumption model with no standard monthly free tier for its hosted web APIs. Search requests are billed at ~$0.005/request and extraction at ~$0.001/request. The Parallel Search Model Context Protocol (MCP) server is free to run locally and does not require an API key. | `Search API`, `Extract API`, `Monitor API` | [Normal Link](https://parallel.ai/) |
+| 🔍 **SearXNG** | First-Party | 🔍 | ❌ No (SDK needed) | Free, open-source metasearch engine that aggregates results from more than 70 search services. Completely free to self-host (using Docker or local installation) with zero API keys required. Integrates with agents via setting the SEARXNG_URL environment variable to point to the self-hosted instance endpoint. | `Self-Hosted Metasearch API` | [Normal Link](https://github.com/searxng/searxng) |
+| 🕵️ **Tavily** | First-Party | 🕵️ | ❌ No (SDK needed) | AI-native search engine designed for LLMs. Free tier provides 1,000 search API queries/month (no credit card required, resets monthly). Billed by usage: Basic Search consumes 1 credit, Advanced Search consumes 2 credits, Extract consumes 1 credit/5 URLs. Paid plans: Pay-as-you-go at $0.008/credit, or monthly subscriptions starting at $15/month. | `Search API`, `Extract API`, `Crawl API` | [Normal Link](https://tavily.com/) |
 
 ## 📌 Speech-to-Text & Transcription APIs
 
@@ -73,13 +82,18 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 🇺🇸 **AssemblyAI API** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Free tier includes up to 185 hours of batch transcription and 333 hours of streaming transcription (no credit card required). Startup program offers up to 200,000 hours of free credits. Billed under a pay-as-you-go model for additional usage, with core transcription rates and extra add-ons (Diarization, sentiment, LeMUR LLM analysis). | `Universal-3 Pro`, `Universal-1`, `Universal-3 Pro Streaming` (+1 more) | [Normal Link](https://www.assemblyai.com/) |
 | 🇺🇸 **Deepgram API** | First-Party | 🇺🇸 | ❌ No (SDK needed) | Billed by usage (per-second billing). New users receive $200 in one-time free credits (approx. 12,000 minutes of transcription). Startup program provides up to $100,000 in credits over 12 months. Paid plans: Pay-As-You-Go, Growth (discounted rates with annual commitment), and Enterprise (custom rates/self-hosting). STT rates start at ~$0.0077/min, TTS starts at ~$0.015/1k characters, Voice Agent is ~$4.50/hour. | `Nova-3 (STT)`, `Flux (Conversational STT)`, `Aura-2 (TTS)` | [Normal Link](https://deepgram.com/) |
+| 🗣️ **ElevenLabs** | First-Party | 🗣️ | ❌ No (SDK needed) | Premium AI speech synthesis and voice cloning. Free tier provides 10,000 characters/month (refreshes monthly) for personal use, limited to standard voices. Starter plan is $5/month ($1 first month, 30,000 characters, instant voice cloning). Paid plans range up to $330/month (Scale). Scribe STT offers a usage-based tier. | `Multilingual v2 (TTS)`, `Turbo v2.5 (TTS)`, `Scribe (STT)` (+1 more) | [Normal Link](https://elevenlabs.io/) |
+| 🤖 **Mistral API (Voxtral)** | First-Party | 🤖 | ❌ No (SDK needed) | Hermes audio integration using Mistral's Voxtral speech-to-text and text-to-speech engine. Billed under the standard Mistral API billing structure (La Plateforme). STT and TTS are billed based on usage (characters synthesized or minutes transcribed). | `mistral-embed`, `voxtral-stt`, `voxtral-tts` | [Normal Link](https://console.mistral.ai/) |
+| 🎙️ **Voice Tools (OpenAI)** | First-Party | 🎙️ | ❌ No (SDK needed) | Hermes audio transcription and speech integration using OpenAI Whisper (STT) and OpenAI TTS. Billed directly via the configured OpenAI API key (pay-as-you-go). Whisper is priced at $0.006/minute of audio. OpenAI TTS is priced at $15/M characters (Standard) and $30/M characters (HD). | `whisper-1`, `tts-1`, `tts-1-hd` | [Normal Link](https://platform.openai.com/) |
 
 ## 📌 CLI & AI Developer Tools
 
 | Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 📰 **BlogWatcher CLI** | First-Party | 📰 | ❌ No (SDK needed) | Command-line tool to register, track, scan, and notify new blog and RSS feed updates on the fly. | *Not configured / Features listed below* | [Normal Link](https://github.com/) |
+| 🐙 **GitHub API** | First-Party | 🐙 | ❌ No (SDK needed) | GitHub API authentication token. Free accounts have standard API rate limits (60 requests/hour unauthenticated). Authenticating using a Personal Access Token (GITHUB_TOKEN) increases the rate limit to 5,000 requests/hour (up to 15,000 requests/hour for GitHub Enterprise/marketplace accounts). Used for Skills Hub publishing and repository syncing. | `GitHub REST API`, `GitHub GraphQL API` | [Normal Link](https://github.com/settings/tokens) |
 | ⚡ **Hermes Agent CLI** | First-Party | ⚡ | ❌ No (SDK needed) | Local command-line wrapper enabling background agent task runs, persistent environments, and pairing triggers. | *Not configured / Features listed below* | [Normal Link](https://github.com/) |
+| 🧠 **Honcho** | First-Party | 🧠 | ❌ No (SDK needed) | AI-native persistent memory library for stateful agents (developed by Plastic Labs). Licensed under AGPL-3.0 and completely free to self-host locally or via Docker, with standard configuration overrides (HONCHO_BASE_URL). The managed cloud service (api.honcho.dev) offers a free trial of $100 in start credits to new organizations. | `Agent Memory Storage` | [Normal Link](https://honcho.dev/) |
 | 🦙 **Ollama** | First-Party | 🦙 | ✅ Yes | Fully local and permanently free. Run model architectures like Llama, Qwen, Mistral, and Gemma on local CPU/GPU. | *Not configured / Features listed below* | [Normal Link](https://ollama.com/) |
 | 🤖 **Qoder** | First-Party | 🤖 | ❌ No (SDK needed) | Local developer utility for AI assistance, code generation, and terminal integration. | *Not configured / Features listed below* | [Normal Link](https://qoder.io/) |
 | 💬 **WaCLI** | First-Party | 💬 | ❌ No (SDK needed) | WhatsApp CLI tool for sending, syncing, and alerting messages directly from the server command-line. | *Not configured / Features listed below* | [Normal Link](https://github.com/topics/whatsapp-cli) |
@@ -88,6 +102,9 @@
 
 | Provider | Type | Region | OpenAI Compatible? | Quota / Rate Limit / Conditions | Key Models / Features | API Key / Referral Link |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 🤖 **Browser-use** | First-Party | 🤖 | ❌ No (SDK needed) | Agent browser automation library and cloud platform. Core Python library is open-source (MIT License) and completely free to run locally (user pays for LLM tokens). Managed Browser Use Cloud offers browser hosting infrastructure; includes a free tier for individual testing and prototyping. Paid Developer/Business plans scale concurrency, proxy bandwidth, and runtime. | `Agentic Browser Navigation`, `Managed Chromium Nodes` | [Normal Link](https://browser-use.com/) |
+| 🌐 **Browserbase** | First-Party | 🌐 | ❌ No (SDK needed) | Managed cloud browser platform for web scraping and AI agents. Free plan offers 1 hour (60 minutes) of concurrent browser session usage per month (max 15 mins/session, 1 concurrent browser, 7-day data retention). Developer plan is $20/month for 100 browser hours and 1 GB proxy bandwidth, with pay-as-you-go overage billing at $0.12/hour. | `Cloud Browser Session`, `Session Recording`, `Captcha Solver` | [Normal Link](https://www.browserbase.com/) |
+| 🦊 **Camofox** | First-Party | 🦊 | ❌ No (SDK needed) | Open-source, headless anti-detection browser automation server designed for AI agents. Free to run and self-host locally or on own infrastructure (Docker/VPS) using the open-source Camoufox Firefox fork. Integrates with agents via local base URL overrides. Supports access security via custom CAMOFOX_API_KEY authentication tokens. | `Stealth Headless Firefox`, `Accessibility Snapshot API` | [Normal Link](https://github.com/camoufox/camoufox) |
 | 🔍 **ChangeDetection.io** | First-Party | 🔍 | ❌ No (SDK needed) | Website monitoring and change detection service. Self-hosted version is free and open-source (MIT license). Managed Cloud SaaS subscription starts at $8.99/month for up to 5,000 URLs, including managed proxies and browser-based checks. | `Website Change Detection Engine (No LLM models hosted)` | [Normal Link](https://changedetection.io/) |
 | 🌐 **Novita AI Sandbox Browser** | First-Party | 🌐 | ❌ No (SDK needed) | Secure runtime sandbox for multi-agent workloads. Offers $100 in free Sandbox credits to new users. Free tier limits session lengths to 1 hour, concurrency to 5, and resources to 2 vCPU + 4GB RAM. Paid tier (automatic upgrade when balance > $0) allows up to 24-hour sessions, 100 concurrent sandboxes, and up to 8 vCPU + 8GB RAM. | `DeepSeek-V4-Pro`, `Llama 3.3-70B`, `Qwen3-Max` (+2 more) | [Normal Link](https://novita.ai/products/sandbox) |
 
@@ -98,7 +115,9 @@
 | 🇺🇸 **Akamai Cloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Infrastructure provider. Does not offer a permanent free tier. Provides $100 in free credits to new customers, valid for 60 days (requires payment verification). Standard flat-rate billing applies afterwards: shared instances start at $5/month, dedicated instances start at $36-$50/month. | `NVIDIA RTX PRO 6000 Blackwell Server Edition (GPU)`, `NVIDIA RTX 4000 Ada Generation (GPU)`, `NVIDIA Quadro RTX 6000 (GPU)` | [Referral Link]() / [Normal Link](https://www.linode.com/) |
 | 🇺🇸 **Azure Cloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Not configured yet. General Azure cloud $200 trial credits. | *Not configured / Features listed below* | [Normal Link](https://azure.microsoft.com/) |
 | 🇺🇸 **DigitalOcean** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | Offers a Free tier with basic GPU access, 5GB storage, 12-hour auto-shutdown, and public projects. Paid options include Pro subscription ($8/month, 15GB storage, mid-range GPUs) and Growth subscription ($39/month, 50GB storage, high-end GPUs like A100/H100). Hourly compute costs apply additionally while instances are active, billed per second and stopped when powered down. | `NVIDIA H100`, `NVIDIA A100`, `RTX A6000` (+3 more) | [Referral Link]() / [Normal Link](https://www.digitalocean.com/) |
-| 🇺🇸 **GMICloud** | Cloud Provider | 🇺🇸 | ❌ No (SDK needed) | No public free tier. Pay-as-you-go model with transparent pricing based on GPU hardware (e.g., NVIDIA H100, B200, GB200) and service type. Serverless endpoints are billed per-token, while dedicated endpoints use on-demand hourly rates or longer-term cluster reservations. | `DeepSeek`, `Llama`, `Qwen` (+1 more) | [Normal Link](https://gmicloud.com/) |
+| 🎨 **Fal.ai** | First-Party | 🎨 | ❌ No (SDK needed) | High-performance generative media (image/video/audio) API. No permanent free tier. New developer signups receive up to $20 in one-time free credits (especially for business domains) to test models in the Playground. Paid usage is pay-per-use (prepaid credit model, charged per generated image/video/second). Research grants program is available for open-source AI. | `FLUX.1 series`, `Stable Diffusion 3.5`, `Cosmos Video` | [Normal Link](https://fal.ai/) |
+| 🖌️ **Krea** | First-Party | 🖌️ | ❌ No (SDK needed) | AI image and video generation platform. Web app offers a free plan with daily free credits (~50 generations/day). Developer API (via KREA_API_KEY) has no free tier and is billed independently via prepaid USD workspace balances on a per-generation cost model. | `Krea 2 Image Gen`, `Krea Video Gen` | [Normal Link](https://www.krea.ai/) |
+| 📊 **Langfuse** | First-Party | 📊 | ❌ No (SDK needed) | Open-source LLM engineering, tracing, and observability platform. Cloud Hobby plan is permanently free, including up to 50,000 tracing units/month, 30 days data retention, and 2 users. Langfuse Cloud Pro is $199/month. Standard self-hosted version is fully open-source (MIT License) with no usage limits, though enterprise SSO/RBAC require commercial licensing. | `LLM Observability Traces`, `Prompt Management`, `Datasets & Evaluations` | [Normal Link](https://langfuse.com/) |
 | 🇺🇸 **OpenInference** | Inference Provider | 🇺🇸 | ✅ Yes | Offers hosted model inference. Historically provides free rate-limited access for certain models (such as Qwen, Kimi, and DeepSeek, e.g., 500 prompts per day) for academic and research purposes. Paid API access is based on token consumption (e.g., Gemma 4 31B at $0.06/M input and $0.35/M output tokens; GPT-OSS 120B at $0.03/M input and $0.15/M output tokens). | `Gemma 4 (31B)`, `gpt-oss-120b`, `gpt-oss-20b` | [Normal Link](https://openinference.io/) |
 | 🇺🇸 **Perceptron** | Inference Provider | 🇺🇸 | ✅ Yes | Flagship model Perceptron Mk1 can be tested for free via their demo app or integrations like Puter.js. Developers can sign up for API keys on platform.perceptron.inc. Direct API usage is billed on a pay-as-you-go token basis: $0.15 per million input tokens ($0.15/MT) and $1.50 per million output tokens ($1.50/MT). | `Perceptron Mk1` | [Normal Link](https://perceptron.ai/) |
 | 🌐 **Phala** | Inference Provider | 🌐 | ✅ Yes | Decentralized confidential computing network. Agent Contracts can be deployed and hosted for free with no gas fees (dstack SDK is free). For Phala Cloud (Confidential VMs/GPU TEEs), new verified users may receive $20 in free credits, after which computing resources are billed on a pay-as-you-go basis (per-minute billing for instance types and $0.000139/GB/hour for storage). | `Llama 3.1`, `Qwen`, `DeepSeek` (+3 more) | [Normal Link](https://phala.network/) |
@@ -110,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (26 models detected on 2026-06-18 00:11:26):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (26 models detected on 2026-06-18 00:15:56):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -181,7 +200,7 @@
 
 ### 🇨🇳 Alibaba Cloud Int.
 - **Normal Link**: [Link](https://www.alibabacloud.com/)
-- **Rules & Conditions**: New users receive a free token quota valid for 90 days after activation, restricted to real-time model inference in the Singapore region (does not cover batch calls, fine-tuning, or context caching). The permanent free developer API access was retired in April 2026. Paid options are pay-as-you-go (token consumption-based) and dedicated monthly Coding Plans (Lite and Pro) for AI coding assistant.
+- **Rules & Conditions**: Provides DashScope / Model Studio developer APIs and AI Coding Plans. New users receive a free token quota valid for 90 days (Singapore region only, sk- keys). Standard DashScope API is pay-as-you-go based on token usage. The AI Coding Plan is a fixed-price monthly subscription (Lite/Pro, sk-sp- keys) providing flat-rate prompt limits instead of token billing.
 - **Supported Models / Features**:
   - `Qwen3.7-Max`
   - `Qwen3.7-Plus`
@@ -200,7 +219,7 @@
 
 ### 🇺🇸 Anthropic
 - **Normal Link**: [Link](https://console.anthropic.com/)
-- **Rules & Conditions**: Claude.ai interactive chat offers a permanent free tier with usage limits capped on a rolling 5-hour window (approx. 30-50 messages). The developer API has no permanent free tier but provides a small one-time starter credit upon account creation. Paid options include Claude.ai Pro ($20/month), Max ($100-$200/month), and consumption-based developer API billing (e.g., Opus: $5/MTok input, $25/MTok output; Sonnet: $3/MTok input, $15/MTok output).
+- **Rules & Conditions**: Claude.ai interactive chat offers a permanent free tier with usage limits capped on a rolling 5-hour window. The developer API has no permanent free tier but provides a small one-time starter credit upon account creation. Paid options include Claude.ai Pro ($20/month) and consumption-based developer API billing. The CLAUDE_CODE_OAUTH_TOKEN environment variable can be used to authenticate coding tasks via Anthropic's OAuth device flow.
 - **Supported Models / Features**:
   - `Claude 4.6 Sonnet`
   - `Claude 4.7 Opus`
@@ -275,6 +294,28 @@
 - **Rules & Conditions**: Metered pricing model. Automatically provides $5 in free credits every month, covering approximately 1,000 free requests/month. The standard Search Plan is priced at $5 per 1,000 requests (includes Web, News, Images, LLM context). Answers Plan is priced at $4 per 1,000 queries plus token costs.
 - **Supported Models / Features**:
   - `Search API (No custom LLM models hosted)`
+
+### 🤖 Browser-use
+- **Normal Link**: [Link](https://browser-use.com/)
+- **Rules & Conditions**: Agent browser automation library and cloud platform. Core Python library is open-source (MIT License) and completely free to run locally (user pays for LLM tokens). Managed Browser Use Cloud offers browser hosting infrastructure; includes a free tier for individual testing and prototyping. Paid Developer/Business plans scale concurrency, proxy bandwidth, and runtime.
+- **Supported Models / Features**:
+  - `Agentic Browser Navigation`
+  - `Managed Chromium Nodes`
+
+### 🌐 Browserbase
+- **Normal Link**: [Link](https://www.browserbase.com/)
+- **Rules & Conditions**: Managed cloud browser platform for web scraping and AI agents. Free plan offers 1 hour (60 minutes) of concurrent browser session usage per month (max 15 mins/session, 1 concurrent browser, 7-day data retention). Developer plan is $20/month for 100 browser hours and 1 GB proxy bandwidth, with pay-as-you-go overage billing at $0.12/hour.
+- **Supported Models / Features**:
+  - `Cloud Browser Session`
+  - `Session Recording`
+  - `Captcha Solver`
+
+### 🦊 Camofox
+- **Normal Link**: [Link](https://github.com/camoufox/camoufox)
+- **Rules & Conditions**: Open-source, headless anti-detection browser automation server designed for AI agents. Free to run and self-host locally or on own infrastructure (Docker/VPS) using the open-source Camoufox Firefox fork. Integrates with agents via local base URL overrides. Supports access security via custom CAMOFOX_API_KEY authentication tokens.
+- **Supported Models / Features**:
+  - `Stealth Headless Firefox`
+  - `Accessibility Snapshot API`
 
 ### 🇺🇸 Cerebras
 - **Normal Link**: [Link](https://cloud.cerebras.ai/)
@@ -380,6 +421,39 @@
   - `RTX A4000`
   - `Tesla V100`
 
+### 🗣️ ElevenLabs
+- **Normal Link**: [Link](https://elevenlabs.io/)
+- **Rules & Conditions**: Premium AI speech synthesis and voice cloning. Free tier provides 10,000 characters/month (refreshes monthly) for personal use, limited to standard voices. Starter plan is $5/month ($1 first month, 30,000 characters, instant voice cloning). Paid plans range up to $330/month (Scale). Scribe STT offers a usage-based tier.
+- **Supported Models / Features**:
+  - `Multilingual v2 (TTS)`
+  - `Turbo v2.5 (TTS)`
+  - `Scribe (STT)`
+  - `Instant Voice Cloning`
+
+### 🔍 Exa
+- **Normal Link**: [Link](https://exa.ai/)
+- **Rules & Conditions**: AI-native web search and content extraction engine. Free tier provides 1,000 free search queries/month for developer accounts (resets monthly, no credit card required). Paid plan starts at $20/month (includes 10,000 queries, overages at $0.002/query). Enterprise plans offer custom limits and dedicated endpoints. Includes search, contents/scraping, and similarity endpoints.
+- **Supported Models / Features**:
+  - `Search API`
+  - `Extract API`
+  - `Similarity API`
+
+### 🎨 Fal.ai
+- **Normal Link**: [Link](https://fal.ai/)
+- **Rules & Conditions**: High-performance generative media (image/video/audio) API. No permanent free tier. New developer signups receive up to $20 in one-time free credits (especially for business domains) to test models in the Playground. Paid usage is pay-per-use (prepaid credit model, charged per generated image/video/second). Research grants program is available for open-source AI.
+- **Supported Models / Features**:
+  - `FLUX.1 series`
+  - `Stable Diffusion 3.5`
+  - `Cosmos Video`
+
+### 🔥 Firecrawl
+- **Normal Link**: [Link](https://www.firecrawl.dev/)
+- **Rules & Conditions**: Web scraping, crawling, and AI-powered extraction API. Free tier provides 500 to 1,000 credits/month (no credit card required) for evaluation. Paid plans start at $19/month (Hobby, 3,000 credits) to $599/month (Scale). Operations consume credits based on complexity (e.g. AI extract/stealth proxies cost more). Also available as a free self-hosted open-source version (Docker Compose) with custom FIRECRAWL_API_URL environment overrides.
+- **Supported Models / Features**:
+  - `Scraping API`
+  - `Crawling API`
+  - `AI Extraction API`
+
 ### 🇺🇸 Fireworks
 - **Normal Link**: [Link](https://fireworks.ai/)
 - **OpenAI Base URL**: `https://api.fireworks.ai/inference/v1`
@@ -399,14 +473,22 @@
   - `Mistral`
   - `Qwen 2`
 
-### 🇺🇸 GMICloud
+### 🇺🇸 GMI Cloud
 - **Normal Link**: [Link](https://gmicloud.com/)
-- **Rules & Conditions**: No public free tier. Pay-as-you-go model with transparent pricing based on GPU hardware (e.g., NVIDIA H100, B200, GB200) and service type. Serverless endpoints are billed per-token, while dedicated endpoints use on-demand hourly rates or longer-term cluster reservations.
+- **OpenAI Base URL**: `https://api.gmicloud.ai/v1`
+- **Rules & Conditions**: High-performance GPU cloud. No public permanent free tier. Offers free access to specific model endpoints (e.g. Llama 3.3, DeepSeek R1) for inference on the Model Hub dashboard. Paid options use a pay-as-you-go model with transparent pricing based on GPU hardware (e.g. NVIDIA H100, B200) and service type.
 - **Supported Models / Features**:
   - `DeepSeek`
   - `Llama`
   - `Qwen`
   - `Flux`
+
+### 🐙 GitHub API
+- **Normal Link**: [Link](https://github.com/settings/tokens)
+- **Rules & Conditions**: GitHub API authentication token. Free accounts have standard API rate limits (60 requests/hour unauthenticated). Authenticating using a Personal Access Token (GITHUB_TOKEN) increases the rate limit to 5,000 requests/hour (up to 15,000 requests/hour for GitHub Enterprise/marketplace accounts). Used for Skills Hub publishing and repository syncing.
+- **Supported Models / Features**:
+  - `GitHub REST API`
+  - `GitHub GraphQL API`
 
 ### 🇺🇸 Google AI Studio
 - **Normal Link**: [Link](https://aistudio.google.com/app/apikey)
@@ -447,6 +529,12 @@
 - **Normal Link**: [Link](https://github.com/)
 - **Rules & Conditions**: Local command-line wrapper enabling background agent task runs, persistent environments, and pairing triggers.
 
+### 🧠 Honcho
+- **Normal Link**: [Link](https://honcho.dev/)
+- **Rules & Conditions**: AI-native persistent memory library for stateful agents (developed by Plastic Labs). Licensed under AGPL-3.0 and completely free to self-host locally or via Docker, with standard configuration overrides (HONCHO_BASE_URL). The managed cloud service (api.honcho.dev) offers a free trial of $100 in start credits to new organizations.
+- **Supported Models / Features**:
+  - `Agent Memory Storage`
+
 ### 🇦🇪 Inception
 - **Normal Link**: [Link](https://www.g42.ai/)
 - **Rules & Conditions**: Provides 10 million free tokens upon account creation to test and prototype. OpenAI-compatible API operates on usage-based pricing with customizable user-defined billing limits and email alerts to block overages.
@@ -480,6 +568,29 @@
   - `Inflection-3`
   - `Inflection-2.5`
   - `Pi`
+
+### 💻 Kilocode
+- **Normal Link**: [Link](https://kilo.ai/)
+- **Rules & Conditions**: AI-native gateway and assistant platform. Auto Free Tier routes to free models (e.g., Llama 3.1 8B, Qwen 2.5 7B) through Kilo Gateway. Supports Bring Your Own Key (BYOK) to route to user's OpenAI, Anthropic, or Gemini keys for free or paid usage. Paid Kilo Pass subscriptions start at $19/month (Starter) to $199/month (Expert) for hosted model credits.
+- **Supported Models / Features**:
+  - `kilo-free`
+  - `Llama series`
+  - `Qwen series`
+
+### 🖌️ Krea
+- **Normal Link**: [Link](https://www.krea.ai/)
+- **Rules & Conditions**: AI image and video generation platform. Web app offers a free plan with daily free credits (~50 generations/day). Developer API (via KREA_API_KEY) has no free tier and is billed independently via prepaid USD workspace balances on a per-generation cost model.
+- **Supported Models / Features**:
+  - `Krea 2 Image Gen`
+  - `Krea Video Gen`
+
+### 📊 Langfuse
+- **Normal Link**: [Link](https://langfuse.com/)
+- **Rules & Conditions**: Open-source LLM engineering, tracing, and observability platform. Cloud Hobby plan is permanently free, including up to 50,000 tracing units/month, 30 days data retention, and 2 users. Langfuse Cloud Pro is $199/month. Standard self-hosted version is fully open-source (MIT License) with no usage limits, though enterprise SSO/RBAC require commercial licensing.
+- **Supported Models / Features**:
+  - `LLM Observability Traces`
+  - `Prompt Management`
+  - `Datasets & Evaluations`
 
 ### 🇺🇸 Liquid
 - **Normal Link**: [Link](https://www.liquid.ai/)
@@ -520,6 +631,14 @@
   - `Mistral Large 3`
   - `Codestral`
 
+### 🤖 Mistral API (Voxtral)
+- **Normal Link**: [Link](https://console.mistral.ai/)
+- **Rules & Conditions**: Hermes audio integration using Mistral's Voxtral speech-to-text and text-to-speech engine. Billed under the standard Mistral API billing structure (La Plateforme). STT and TTS are billed based on usage (characters synthesized or minutes transcribed).
+- **Supported Models / Features**:
+  - `mistral-embed`
+  - `voxtral-stt`
+  - `voxtral-tts`
+
 ### 🇨🇳 Moonshot AI
 - **Normal Link**: [Link](https://platform.moonshot.cn/)
 - **Rules & Conditions**: Kimi chat interface is free for casual users with query volume and context limits. Pro features (Agent Swarm, Deep Research) are available via monthly subscriptions: Moderato (~$19/mo), Allegretto, and Vivace (up to $199/mo). Developer API is pay-as-you-go ($0.55-$0.95 per million input, $2.50-$4.00 per million output tokens) with automatic context caching. Open-weight versions of Kimi K2 models are free to self-host.
@@ -536,6 +655,15 @@
   - `Morph V3 Large`
   - `Morph-Video-1`
   - `Seedance 2.0`
+
+### 🟢 NVIDIA NIM
+- **Normal Link**: [Link](https://build.nvidia.com)
+- **OpenAI Base URL**: `https://integrate.api.nvidia.com/v1`
+- **Rules & Conditions**: Provides free developer access to hosted NIM APIs for development, prototyping, and testing (no credit card required, never expires). Subject to model-specific rate limits (approx. 40 RPM). Strictly for development and testing. Paid options require self-hosting NIM containers under an NVIDIA AI Enterprise license.
+- **Supported Models / Features**:
+  - `meta/llama-3.3-70b-instruct`
+  - `nvidia/nemotron-4-340b-instruct`
+  - `deepseek-ai/deepseek-r1`
 
 ### 🇳🇱 Nebius Token Factory
 - **Referral Link**: [Link]()
@@ -582,6 +710,15 @@
 - **OpenAI Base URL**: `http://localhost:11434/v1`
 - **Rules & Conditions**: Fully local and permanently free. Run model architectures like Llama, Qwen, Mistral, and Gemma on local CPU/GPU.
 
+### ☁️ Ollama Cloud
+- **Normal Link**: [Link](https://ollama.com/)
+- **OpenAI Base URL**: `https://api.ollama.com`
+- **Rules & Conditions**: Hosted cloud service for Ollama models. Free tier ($0/month) provides access to a selection of cloud-enabled models, subject to base limits based on actual GPU compute/execution time rather than tokens. Paid plans: Pro ($20/month, 50x usage, 3 concurrent cloud models) and Max ($100/month, 5x Pro usage, 10 concurrent cloud models).
+- **Supported Models / Features**:
+  - `Llama 3.3`
+  - `Qwen 2.5`
+  - `Mistral Small`
+
 ### 🇺🇸 OpenAI
 - **Normal Link**: [Link](https://platform.openai.com/)
 - **OpenAI Base URL**: `https://api.openai.com/v1`
@@ -622,6 +759,14 @@
   - `openrouter/free`
   - `liquid/lfm-2.5-1.2b-thinking:free`
   - `liquid/lfm-2.5-1.2b-instruct:free`
+
+### ⚡ Parallel
+- **Normal Link**: [Link](https://parallel.ai/)
+- **Rules & Conditions**: AI-native search and extraction engine. Operates primarily on a pay-as-you-go consumption model with no standard monthly free tier for its hosted web APIs. Search requests are billed at ~$0.005/request and extraction at ~$0.001/request. The Parallel Search Model Context Protocol (MCP) server is free to run locally and does not require an API key.
+- **Supported Models / Features**:
+  - `Search API`
+  - `Extract API`
+  - `Monitor API`
 
 ### 🇺🇸 Parasail
 - **Normal Link**: [Link](https://parasail.io/)
@@ -697,6 +842,12 @@
   - `gemma-4-31B-it`
   - `gpt-oss-120b`
 
+### 🔍 SearXNG
+- **Normal Link**: [Link](https://github.com/searxng/searxng)
+- **Rules & Conditions**: Free, open-source metasearch engine that aggregates results from more than 70 search services. Completely free to self-host (using Docker or local installation) with zero API keys required. Integrates with agents via setting the SEARXNG_URL environment variable to point to the self-hosted instance endpoint.
+- **Supported Models / Features**:
+  - `Self-Hosted Metasearch API`
+
 ### 🇨🇳 SiliconFlow
 - **Referral Link**: [Link]()
 - **Normal Link**: [Link](https://siliconflow.cn/zh-cn/)
@@ -725,6 +876,14 @@
   - `Claude 3.5 Sonnet (Routed)`
   - `Llama 3.1 (Routed)`
 
+### 🕵️ Tavily
+- **Normal Link**: [Link](https://tavily.com/)
+- **Rules & Conditions**: AI-native search engine designed for LLMs. Free tier provides 1,000 search API queries/month (no credit card required, resets monthly). Billed by usage: Basic Search consumes 1 credit, Advanced Search consumes 2 credits, Extract consumes 1 credit/5 URLs. Paid plans: Pay-as-you-go at $0.008/credit, or monthly subscriptions starting at $15/month.
+- **Supported Models / Features**:
+  - `Search API`
+  - `Extract API`
+  - `Crawl API`
+
 ### 🇺🇸 Together
 - **Normal Link**: [Link](https://together.ai/)
 - **OpenAI Base URL**: `https://api.together.xyz/v1`
@@ -747,6 +906,14 @@
   - `Llama 3.1`
   - `DeepSeek R1`
   - `Venice Uncensored`
+
+### 🎙️ Voice Tools (OpenAI)
+- **Normal Link**: [Link](https://platform.openai.com/)
+- **Rules & Conditions**: Hermes audio transcription and speech integration using OpenAI Whisper (STT) and OpenAI TTS. Billed directly via the configured OpenAI API key (pay-as-you-go). Whisper is priced at $0.006/minute of audio. OpenAI TTS is priced at $15/M characters (Standard) and $30/M characters (HD).
+- **Supported Models / Features**:
+  - `whisper-1`
+  - `tts-1`
+  - `tts-1-hd`
 
 ### 💬 WaCLI
 - **Normal Link**: [Link](https://github.com/topics/whatsapp-cli)
@@ -815,4 +982,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-06-18 00:11:26 (IST) | Build ID: 20260618001126*
+*Last updated: 2026-06-18 00:15:56 (IST) | Build ID: 20260618001556*
