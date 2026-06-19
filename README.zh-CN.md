@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter 动态免费模型
 
-*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-06-18 10:00:09 检测到 27 个模型）：*
+*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-06-19 10:00:13 检测到 27 个模型）：*
 
 | 模型 ID | 上下文窗口 | 描述 |
 | :--- | :--- | :--- |
@@ -156,7 +156,7 @@
 | `openai/gpt-oss-20b:free` | 131K | gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. I... |
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
 | `openrouter/owl-alpha` | 1048K | Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports t... |
-| `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for co... |
+| `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
 | `poolside/laguna-xs.2:free` | 262K | Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/... |
 | `qwen/qwen3-coder:free` | 1048K | Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the ... |
 | `qwen/qwen3-next-80b-a3b-instruct:free` | 262K | Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized fo... |
@@ -983,4 +983,4 @@
 - **提交更新**: 欢迎提交更新 `free-llm-providers.json` 数据库或脚本的 PR。请不要直接编辑 `README.md`，因为它是由脚本动态生成的。
 
 ---
-*上次更新时间: 2026-06-18 10:00:09 (北京时间) | 编译 ID: 20260618100009*
+*上次更新时间: 2026-06-19 10:00:13 (北京时间) | 编译 ID: 20260619100013*

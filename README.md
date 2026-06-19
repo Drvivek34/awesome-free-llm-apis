@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (27 models detected on 2026-06-18 10:00:09):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (27 models detected on 2026-06-19 10:00:13):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -156,7 +156,7 @@
 | `openai/gpt-oss-20b:free` | 131K | gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. I... |
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
 | `openrouter/owl-alpha` | 1048K | Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports t... |
-| `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for co... |
+| `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
 | `poolside/laguna-xs.2:free` | 262K | Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/... |
 | `qwen/qwen3-coder:free` | 1048K | Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the ... |
 | `qwen/qwen3-next-80b-a3b-instruct:free` | 262K | Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized fo... |
@@ -983,4 +983,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-06-18 10:00:09 (IST) | Build ID: 20260618100009*
+*Last updated: 2026-06-19 10:00:13 (IST) | Build ID: 20260619100013*
