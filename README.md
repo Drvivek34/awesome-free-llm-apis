@@ -50,7 +50,7 @@
 | 🇺🇸 **NovitaAI** | Inference Provider | 🇺🇸 | ✅ Yes | No permanent free tier. New accounts receive $1 in free credits upon signup, with promotions offering up to $100 in Sandbox credits (valid for 90 days) or $10 for specific models. Startups can receive up to $10,000 in credits. Paid options: Pay-as-you-go based on token usage or hourly dedicated GPU instance hosting. | `Qwen3.7-Max`, `MiniMax-M3`, `Kimi K2.7 Code` (+1 more) | [Referral Link]() / [Normal Link](https://novita.ai/) |
 | ☁️ **Ollama Cloud** | Inference Provider | ☁️ | ✅ Yes | Hosted cloud service for Ollama models. Free tier ($0/month) provides access to a selection of cloud-enabled models, subject to base limits based on actual GPU compute/execution time rather than tokens. Paid plans: Pro ($20/month, 50x usage, 3 concurrent cloud models) and Max ($100/month, 5x Pro usage, 10 concurrent cloud models). | `Llama 3.3`, `Qwen 2.5`, `Mistral Small` | [Normal Link](https://ollama.com/) |
 | 🇺🇸 **OpenAI** | First-Party | 🇺🇸 | ✅ Yes | No permanent free API tier. New accounts receive a one-time trial credit (e.g., $5 to $18) expiring in 3 months. Users can opt into the Data Sharing Program to get a daily quota of free tokens on specific models (e.g., gpt-4o-mini, gpt-4.1-mini) in exchange for training data. General usage is pay-as-you-go per-token billing (e.g., GPT-5.5 at $5/1M input, $30/1M output; GPT-5.4-nano at $0.10-$0.20/1M input), with input caching and Batch API (50% off) discounts. | `GPT-5.5`, `GPT-5.4`, `GPT-5.4-mini` (+3 more) | [Normal Link](https://platform.openai.com/) |
-| 🌐 **OpenRouter** | Inference Provider | 🌐 | ✅ Yes | 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up) | `north-mini-code:free`, `nex-n2-pro:free`, `nemotron-3.5-content-safety:free` (+12 more) | [Normal Link](https://openrouter.ai/keys) |
+| 🌐 **OpenRouter** | Inference Provider | 🌐 | ✅ Yes | 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up) | `north-mini-code:free`, `nemotron-3.5-content-safety:free`, `nemotron-3-ultra-550b-a55b:free` (+12 more) | [Normal Link](https://openrouter.ai/keys) |
 | 🇺🇸 **Parasail** | Inference Provider | 🇺🇸 | ✅ Yes | Offers a 'Serverless - Free' tier for prototyping and testing, limited to 5 Requests Per Minute (RPM). Paid options: Pay-per-token serverless billing or hourly GPU instance billing, which typically requires a linked payment method and a $25 charging threshold. | `Qwen series`, `DeepSeek series`, `Llama series` | [Normal Link](https://parasail.io/) |
 | 🇺🇸 **Perplexity** | Inference Provider | 🇺🇸 | ✅ Yes | No permanent free tier. New accounts receive $25-$50 in trial credits. Perplexity Pro subscribers ($20/month) receive $5 in monthly API credits. Startup programs offer grants from $500 to $5,000+. Paid options: Pay-as-you-go token pricing. | `Sonar Small Online`, `Sonar Large Online`, `Sonar Huge Online` (+1 more) | [Referral Link]() / [Normal Link](https://www.perplexity.ai/pro) |
 | 🇫🇷 **Poolside** | First-Party | 🇫🇷 | ✅ Yes | Enterprise-focused coding assistant and foundation models. Models are available with open weights (e.g., Laguna XS.2 is Apache-2.0 licensed). Free access to models is available via third-party integrations like OpenRouter, Puter.js, Requesty, and Krater.ai. Direct business model is custom enterprise deployment (on-premises or private VPCs), with no standard public self-serve pay-as-you-go pricing listed. | `Laguna M.1`, `Laguna XS.2` | [Normal Link](https://poolside.ai/) |
@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (27 models detected on 2026-06-22 10:00:28):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (26 models detected on 2026-06-23 10:00:56):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -143,7 +143,6 @@
 | `liquid/lfm-2.5-1.2b-thinking:free` | 32K | LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extr... |
 | `meta-llama/llama-3.2-3b-instruct:free` | 131K | Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natu... |
 | `meta-llama/llama-3.3-70b-instruct:free` | 131K | The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned gen... |
-| `nex-agi/nex-n2-pro:free` | 262K | Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 39... |
 | `nousresearch/hermes-3-llama-3.1-405b:free` | 131K | Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced age... |
 | `nvidia/nemotron-3-nano-30b-a3b:free` | 256K | NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and acc... |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256K | NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception... |
@@ -746,7 +745,6 @@
 - **Rules & Conditions**: 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up)
 - **Supported Models / Features**:
   - `cohere/north-mini-code:free`
-  - `nex-agi/nex-n2-pro:free`
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
   - `openrouter/owl-alpha`
@@ -760,6 +758,7 @@
   - `nvidia/nemotron-3-super-120b-a12b:free`
   - `openrouter/free`
   - `liquid/lfm-2.5-1.2b-thinking:free`
+  - `liquid/lfm-2.5-1.2b-instruct:free`
 
 ### ⚡ Parallel
 - **Normal Link**: [Link](https://parallel.ai/)
@@ -983,4 +982,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-06-22 10:00:28 (IST) | Build ID: 20260622100028*
+*Last updated: 2026-06-23 10:00:56 (IST) | Build ID: 20260623100056*
