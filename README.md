@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (26 models detected on 2026-06-30 10:00:35):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (25 models detected on 2026-07-01 10:00:53):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -154,7 +154,6 @@
 | `openai/gpt-oss-120b:free` | 131K | gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI d... |
 | `openai/gpt-oss-20b:free` | 131K | gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. I... |
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
-| `openrouter/owl-alpha` | 1048K | Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports t... |
 | `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
 | `poolside/laguna-xs.2:free` | 262K | Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/... |
 | `qwen/qwen3-coder:free` | 1048K | Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the ... |
@@ -747,7 +746,6 @@
   - `cohere/north-mini-code:free`
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
-  - `openrouter/owl-alpha`
   - `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`
   - `poolside/laguna-xs.2:free`
   - `poolside/laguna-m.1:free`
@@ -759,6 +757,7 @@
   - `openrouter/free`
   - `liquid/lfm-2.5-1.2b-thinking:free`
   - `liquid/lfm-2.5-1.2b-instruct:free`
+  - `nvidia/nemotron-3-nano-30b-a3b:free`
 
 ### ⚡ Parallel
 - **Normal Link**: [Link](https://parallel.ai/)
@@ -982,4 +981,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-06-30 10:00:35 (IST) | Build ID: 20260630100035*
+*Last updated: 2026-07-01 10:00:53 (IST) | Build ID: 20260701100053*

@@ -1229,7 +1229,6 @@
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-content-safety:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
-        "openrouter/owl-alpha",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
         "poolside/laguna-xs.2:free",
         "poolside/laguna-m.1:free",
@@ -1240,7 +1239,8 @@
         "nvidia/nemotron-3-super-120b-a12b:free",
         "openrouter/free",
         "liquid/lfm-2.5-1.2b-thinking:free",
-        "liquid/lfm-2.5-1.2b-instruct:free"
+        "liquid/lfm-2.5-1.2b-instruct:free",
+        "nvidia/nemotron-3-nano-30b-a3b:free"
       ]
     },
     {
@@ -1543,5 +1543,5 @@
       ]
     }
   ],
-  "last_updated": "2026-06-30T10:00:35+05:30"
+  "last_updated": "2026-07-01T10:00:53+05:30"
 }

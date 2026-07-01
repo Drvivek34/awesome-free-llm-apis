@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter 动态免费模型
 
-*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-06-30 10:00:35 检测到 26 个模型）：*
+*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-01 10:00:53 检测到 25 个模型）：*
 
 | 模型 ID | 上下文窗口 | 描述 |
 | :--- | :--- | :--- |
@@ -154,7 +154,6 @@
 | `openai/gpt-oss-120b:free` | 131K | gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI d... |
 | `openai/gpt-oss-20b:free` | 131K | gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. I... |
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
-| `openrouter/owl-alpha` | 1048K | Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports t... |
 | `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
 | `poolside/laguna-xs.2:free` | 262K | Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/... |
 | `qwen/qwen3-coder:free` | 1048K | Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the ... |
@@ -747,7 +746,6 @@
   - `cohere/north-mini-code:free`
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
-  - `openrouter/owl-alpha`
   - `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`
   - `poolside/laguna-xs.2:free`
   - `poolside/laguna-m.1:free`
@@ -759,6 +757,7 @@
   - `openrouter/free`
   - `liquid/lfm-2.5-1.2b-thinking:free`
   - `liquid/lfm-2.5-1.2b-instruct:free`
+  - `nvidia/nemotron-3-nano-30b-a3b:free`
 
 ### ⚡ Parallel
 - **官网链接**: [点击访问](https://parallel.ai/)
@@ -982,4 +981,4 @@
 - **提交更新**: 欢迎提交更新 `free-llm-providers.json` 数据库或脚本的 PR。请不要直接编辑 `README.md`，因为它是由脚本动态生成的。
 
 ---
-*上次更新时间: 2026-06-30 10:00:35 (北京时间) | 编译 ID: 20260630100035*
+*上次更新时间: 2026-07-01 10:00:53 (北京时间) | 编译 ID: 20260701100053*
