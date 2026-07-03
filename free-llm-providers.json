@@ -1226,6 +1226,7 @@
       "base_url": "https://openrouter.ai/api/v1",
       "quota": "20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up)",
       "models": [
+        "poolside/laguna-xs-2.1:free",
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-content-safety:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -1239,8 +1240,7 @@
         "nvidia/nemotron-3-super-120b-a12b:free",
         "openrouter/free",
         "liquid/lfm-2.5-1.2b-thinking:free",
-        "liquid/lfm-2.5-1.2b-instruct:free",
-        "nvidia/nemotron-3-nano-30b-a3b:free"
+        "liquid/lfm-2.5-1.2b-instruct:free"
       ]
     },
     {
@@ -1543,5 +1543,5 @@
       ]
     }
   ],
-  "last_updated": "2026-07-02T10:00:47+05:30"
+  "last_updated": "2026-07-03T10:00:59+05:30"
 }
