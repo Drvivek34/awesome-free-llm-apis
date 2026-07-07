@@ -50,7 +50,7 @@
 | 🇺🇸 **NovitaAI** | 第三方推理平台 | 🇺🇸 | ✅ 兼容 | No permanent free tier. New accounts receive $1 in free credits upon signup, with promotions offering up to $100 in Sandbox credits (valid for 90 days) or $10 for specific models. Startups can receive up to $10,000 in credits. Paid options: Pay-as-you-go based on token usage or hourly dedicated GPU instance hosting. | `Qwen3.7-Max`, `MiniMax-M3`, `Kimi K2.7 Code` (+1 更多) | [推荐注册链接]() / [官网普通链接](https://novita.ai/) |
 | ☁️ **Ollama Cloud** | 第三方推理平台 | ☁️ | ✅ 兼容 | Hosted cloud service for Ollama models. Free tier ($0/month) provides access to a selection of cloud-enabled models, subject to base limits based on actual GPU compute/execution time rather than tokens. Paid plans: Pro ($20/month, 50x usage, 3 concurrent cloud models) and Max ($100/month, 5x Pro usage, 10 concurrent cloud models). | `Llama 3.3`, `Qwen 2.5`, `Mistral Small` | [官网链接](https://ollama.com/) |
 | 🇺🇸 **OpenAI** | 第一方厂商 | 🇺🇸 | ✅ 兼容 | No permanent free API tier. New accounts receive a one-time trial credit (e.g., $5 to $18) expiring in 3 months. Users can opt into the Data Sharing Program to get a daily quota of free tokens on specific models (e.g., gpt-4o-mini, gpt-4.1-mini) in exchange for training data. General usage is pay-as-you-go per-token billing (e.g., GPT-5.5 at $5/1M input, $30/1M output; GPT-5.4-nano at $0.10-$0.20/1M input), with input caching and Batch API (50% off) discounts. | `GPT-5.5`, `GPT-5.4`, `GPT-5.4-mini` (+3 更多) | [官网链接](https://platform.openai.com/) |
-| 🌐 **OpenRouter** | 第三方推理平台 | 🌐 | ✅ 兼容 | 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up) | `laguna-xs-2.1:free`, `north-mini-code:free`, `nemotron-3.5-content-safety:free` (+12 更多) | [官网链接](https://openrouter.ai/keys) |
+| 🌐 **OpenRouter** | 第三方推理平台 | 🌐 | ✅ 兼容 | 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up) | `hy3:free`, `laguna-xs-2.1:free`, `north-mini-code:free` (+12 更多) | [官网链接](https://openrouter.ai/keys) |
 | 🇺🇸 **Parasail** | 第三方推理平台 | 🇺🇸 | ✅ 兼容 | Offers a 'Serverless - Free' tier for prototyping and testing, limited to 5 Requests Per Minute (RPM). Paid options: Pay-per-token serverless billing or hourly GPU instance billing, which typically requires a linked payment method and a $25 charging threshold. | `Qwen series`, `DeepSeek series`, `Llama series` | [官网链接](https://parasail.io/) |
 | 🇺🇸 **Perplexity** | 第三方推理平台 | 🇺🇸 | ✅ 兼容 | No permanent free tier. New accounts receive $25-$50 in trial credits. Perplexity Pro subscribers ($20/month) receive $5 in monthly API credits. Startup programs offer grants from $500 to $5,000+. Paid options: Pay-as-you-go token pricing. | `Sonar Small Online`, `Sonar Large Online`, `Sonar Huge Online` (+1 更多) | [推荐注册链接]() / [官网普通链接](https://www.perplexity.ai/pro) |
 | 🇫🇷 **Poolside** | 第一方厂商 | 🇫🇷 | ✅ 兼容 | Enterprise-focused coding assistant and foundation models. Models are available with open weights (e.g., Laguna XS.2 is Apache-2.0 licensed). Free access to models is available via third-party integrations like OpenRouter, Puter.js, Requesty, and Krater.ai. Direct business model is custom enterprise deployment (on-premises or private VPCs), with no standard public self-serve pay-as-you-go pricing listed. | `Laguna M.1`, `Laguna XS.2` | [官网链接](https://poolside.ai/) |
@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter 动态免费模型
 
-*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-06 10:00:56 检测到 26 个模型）：*
+*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-07 10:01:04 检测到 27 个模型）：*
 
 | 模型 ID | 上下文窗口 | 描述 |
 | :--- | :--- | :--- |
@@ -159,6 +159,7 @@
 | `poolside/laguna-xs.2:free` | 262K | Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/... |
 | `qwen/qwen3-coder:free` | 1048K | Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the ... |
 | `qwen/qwen3-next-80b-a3b-instruct:free` | 262K | Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized fo... |
+| `tencent/hy3:free` | 262K | Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 ro... |
 
 ## 详细服务商介绍与限制规则
 
@@ -744,6 +745,7 @@
 - **OpenAI 兼容 Base URL**: `https://openrouter.ai/api/v1`
 - **规则与免费条件**: 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up)
 - **支持的模型 / 功能特征**:
+  - `tencent/hy3:free`
   - `poolside/laguna-xs-2.1:free`
   - `cohere/north-mini-code:free`
   - `nvidia/nemotron-3.5-content-safety:free`
@@ -758,7 +760,6 @@
   - `nvidia/nemotron-3-super-120b-a12b:free`
   - `openrouter/free`
   - `liquid/lfm-2.5-1.2b-thinking:free`
-  - `liquid/lfm-2.5-1.2b-instruct:free`
 
 ### ⚡ Parallel
 - **官网链接**: [点击访问](https://parallel.ai/)
@@ -982,4 +983,4 @@
 - **提交更新**: 欢迎提交更新 `free-llm-providers.json` 数据库或脚本的 PR。请不要直接编辑 `README.md`，因为它是由脚本动态生成的。
 
 ---
-*上次更新时间: 2026-07-06 10:00:56 (北京时间) | 编译 ID: 20260706100056*
+*上次更新时间: 2026-07-07 10:01:04 (北京时间) | 编译 ID: 20260707100104*
