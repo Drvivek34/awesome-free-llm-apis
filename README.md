@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (27 models detected on 2026-07-09 10:00:58):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (26 models detected on 2026-07-10 10:00:28):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -156,7 +156,6 @@
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
 | `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
 | `poolside/laguna-xs-2.1:free` | 262K | Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://pools... |
-| `poolside/laguna-xs.2:free` | 262K | Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/... |
 | `qwen/qwen3-coder:free` | 1048K | Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the ... |
 | `qwen/qwen3-next-80b-a3b-instruct:free` | 262K | Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized fo... |
 | `tencent/hy3:free` | 262K | Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 ro... |
@@ -751,7 +750,6 @@
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
   - `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`
-  - `poolside/laguna-xs.2:free`
   - `poolside/laguna-m.1:free`
   - `google/gemma-4-26b-a4b-it:free`
   - `google/gemma-4-31b-it:free`
@@ -760,6 +758,7 @@
   - `nvidia/nemotron-3-super-120b-a12b:free`
   - `openrouter/free`
   - `liquid/lfm-2.5-1.2b-thinking:free`
+  - `liquid/lfm-2.5-1.2b-instruct:free`
 
 ### ⚡ Parallel
 - **Normal Link**: [Link](https://parallel.ai/)
@@ -983,4 +982,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-07-09 10:00:58 (IST) | Build ID: 20260709100058*
+*Last updated: 2026-07-10 10:00:28 (IST) | Build ID: 20260710100028*

@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter 动态免费模型
 
-*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-09 10:00:58 检测到 27 个模型）：*
+*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-10 10:00:28 检测到 26 个模型）：*
 
 | 模型 ID | 上下文窗口 | 描述 |
 | :--- | :--- | :--- |
@@ -156,7 +156,6 @@
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
 | `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
 | `poolside/laguna-xs-2.1:free` | 262K | Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://pools... |
-| `poolside/laguna-xs.2:free` | 262K | Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/... |
 | `qwen/qwen3-coder:free` | 1048K | Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the ... |
 | `qwen/qwen3-next-80b-a3b-instruct:free` | 262K | Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized fo... |
 | `tencent/hy3:free` | 262K | Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 ro... |
@@ -751,7 +750,6 @@
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
   - `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`
-  - `poolside/laguna-xs.2:free`
   - `poolside/laguna-m.1:free`
   - `google/gemma-4-26b-a4b-it:free`
   - `google/gemma-4-31b-it:free`
@@ -760,6 +758,7 @@
   - `nvidia/nemotron-3-super-120b-a12b:free`
   - `openrouter/free`
   - `liquid/lfm-2.5-1.2b-thinking:free`
+  - `liquid/lfm-2.5-1.2b-instruct:free`
 
 ### ⚡ Parallel
 - **官网链接**: [点击访问](https://parallel.ai/)
@@ -983,4 +982,4 @@
 - **提交更新**: 欢迎提交更新 `free-llm-providers.json` 数据库或脚本的 PR。请不要直接编辑 `README.md`，因为它是由脚本动态生成的。
 
 ---
-*上次更新时间: 2026-07-09 10:00:58 (北京时间) | 编译 ID: 20260709100058*
+*上次更新时间: 2026-07-10 10:00:28 (北京时间) | 编译 ID: 20260710100028*
