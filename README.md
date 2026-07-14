@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (26 models detected on 2026-07-13 10:01:02):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (23 models detected on 2026-07-14 10:00:35):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -139,8 +139,6 @@
 | `google/gemma-4-31b-it:free` | 262K | Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image inp... |
 | `google/lyria-3-clip-preview` | 1048K | 30 second duration clips are priced at $0.04 per clip. Lyria 3 is Google's family of music generatio... |
 | `google/lyria-3-pro-preview` | 1048K | Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation model... |
-| `liquid/lfm-2.5-1.2b-instruct:free` | 32K | LFM2.5-1.2B-Instruct is a compact, high-performance instruction-tuned model built for fast on-device... |
-| `liquid/lfm-2.5-1.2b-thinking:free` | 32K | LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extr... |
 | `meta-llama/llama-3.2-3b-instruct:free` | 131K | Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natu... |
 | `meta-llama/llama-3.3-70b-instruct:free` | 131K | The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned gen... |
 | `nousresearch/hermes-3-llama-3.1-405b:free` | 131K | Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced age... |
@@ -151,7 +149,6 @@
 | `nvidia/nemotron-3.5-content-safety:free` | 128K | NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA,... |
 | `nvidia/nemotron-nano-12b-v2-vl:free` | 128K | NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for vid... |
 | `nvidia/nemotron-nano-9b-v2:free` | 128K | NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and desig... |
-| `openai/gpt-oss-120b:free` | 131K | gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI d... |
 | `openai/gpt-oss-20b:free` | 131K | gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. I... |
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
 | `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
@@ -757,8 +754,8 @@
   - `google/lyria-3-clip-preview`
   - `nvidia/nemotron-3-super-120b-a12b:free`
   - `openrouter/free`
-  - `liquid/lfm-2.5-1.2b-thinking:free`
-  - `liquid/lfm-2.5-1.2b-instruct:free`
+  - `nvidia/nemotron-3-nano-30b-a3b:free`
+  - `nvidia/nemotron-nano-12b-v2-vl:free`
 
 ### ⚡ Parallel
 - **Normal Link**: [Link](https://parallel.ai/)
@@ -982,4 +979,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-07-13 10:01:02 (IST) | Build ID: 20260713100102*
+*Last updated: 2026-07-14 10:00:35 (IST) | Build ID: 20260714100035*
