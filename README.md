@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (23 models detected on 2026-07-17 10:28:52):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (23 models detected on 2026-07-18 12:21:41):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -979,4 +979,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-07-17 10:28:52 (IST) | Build ID: 20260717102852*
+*Last updated: 2026-07-18 12:21:41 (IST) | Build ID: 20260718122142*
