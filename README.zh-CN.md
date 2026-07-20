@@ -129,19 +129,15 @@
 
 ## 🌐 OpenRouter 动态免费模型
 
-*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-19 10:00:24 检测到 23 个模型）：*
+*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-20 10:00:35 检测到 17 个模型）：*
 
 | 模型 ID | 上下文窗口 | 描述 |
 | :--- | :--- | :--- |
-| `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32K | Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-In... |
 | `cohere/north-mini-code:free` | 256K | North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse m... |
 | `google/gemma-4-26b-a4b-it:free` | 262K | Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Desp... |
 | `google/gemma-4-31b-it:free` | 262K | Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image inp... |
 | `google/lyria-3-clip-preview` | 1048K | 30 second duration clips are priced at $0.04 per clip. Lyria 3 is Google's family of music generatio... |
 | `google/lyria-3-pro-preview` | 1048K | Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation model... |
-| `meta-llama/llama-3.2-3b-instruct:free` | 131K | Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natu... |
-| `meta-llama/llama-3.3-70b-instruct:free` | 131K | The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned gen... |
-| `nousresearch/hermes-3-llama-3.1-405b:free` | 131K | Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced age... |
 | `nvidia/nemotron-3-nano-30b-a3b:free` | 256K | NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and acc... |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256K | NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception... |
 | `nvidia/nemotron-3-super-120b-a12b:free` | 1000K | NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters fo... |
@@ -153,8 +149,6 @@
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
 | `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
 | `poolside/laguna-xs-2.1:free` | 262K | Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://pools... |
-| `qwen/qwen3-coder:free` | 1048K | Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the ... |
-| `qwen/qwen3-next-80b-a3b-instruct:free` | 262K | Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized fo... |
 | `tencent/hy3:free` | 262K | Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 ro... |
 
 ## 详细服务商介绍与限制规则
@@ -979,4 +973,4 @@
 - **提交更新**: 欢迎提交更新 `free-llm-providers.json` 数据库或脚本的 PR。请不要直接编辑 `README.md`，因为它是由脚本动态生成的。
 
 ---
-*上次更新时间: 2026-07-19 10:00:24 (北京时间) | 编译 ID: 20260719100024*
+*上次更新时间: 2026-07-20 10:00:35 (北京时间) | 编译 ID: 20260720100035*
