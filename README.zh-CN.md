@@ -50,7 +50,7 @@
 | 🇺🇸 **NovitaAI** | 第三方推理平台 | 🇺🇸 | ✅ 兼容 | No permanent free tier. New accounts receive $1 in free credits upon signup, with promotions offering up to $100 in Sandbox credits (valid for 90 days) or $10 for specific models. Startups can receive up to $10,000 in credits. Paid options: Pay-as-you-go based on token usage or hourly dedicated GPU instance hosting. | `Qwen3.7-Max`, `MiniMax-M3`, `Kimi K2.7 Code` (+1 更多) | [推荐注册链接]() / [官网普通链接](https://novita.ai/) |
 | ☁️ **Ollama Cloud** | 第三方推理平台 | ☁️ | ✅ 兼容 | Hosted cloud service for Ollama models. Free tier ($0/month) provides access to a selection of cloud-enabled models, subject to base limits based on actual GPU compute/execution time rather than tokens. Paid plans: Pro ($20/month, 50x usage, 3 concurrent cloud models) and Max ($100/month, 5x Pro usage, 10 concurrent cloud models). | `Llama 3.3`, `Qwen 2.5`, `Mistral Small` | [官网链接](https://ollama.com/) |
 | 🇺🇸 **OpenAI** | 第一方厂商 | 🇺🇸 | ✅ 兼容 | No permanent free API tier. New accounts receive a one-time trial credit (e.g., $5 to $18) expiring in 3 months. Users can opt into the Data Sharing Program to get a daily quota of free tokens on specific models (e.g., gpt-4o-mini, gpt-4.1-mini) in exchange for training data. General usage is pay-as-you-go per-token billing (e.g., GPT-5.5 at $5/1M input, $30/1M output; GPT-5.4-nano at $0.10-$0.20/1M input), with input caching and Batch API (50% off) discounts. | `GPT-5.5`, `GPT-5.4`, `GPT-5.4-mini` (+3 更多) | [官网链接](https://platform.openai.com/) |
-| 🌐 **OpenRouter** | 第三方推理平台 | 🌐 | ✅ 兼容 | 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up) | `laguna-s-2.1:free`, `laguna-xs-2.1:free`, `north-mini-code:free` (+12 更多) | [官网链接](https://openrouter.ai/keys) |
+| 🌐 **OpenRouter** | 第三方推理平台 | 🌐 | ✅ 兼容 | 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up) | `ling-3.0-flash:free`, `laguna-s-2.1:free`, `laguna-xs-2.1:free` (+12 更多) | [官网链接](https://openrouter.ai/keys) |
 | 🇺🇸 **Parasail** | 第三方推理平台 | 🇺🇸 | ✅ 兼容 | Offers a 'Serverless - Free' tier for prototyping and testing, limited to 5 Requests Per Minute (RPM). Paid options: Pay-per-token serverless billing or hourly GPU instance billing, which typically requires a linked payment method and a $25 charging threshold. | `Qwen series`, `DeepSeek series`, `Llama series` | [官网链接](https://parasail.io/) |
 | 🇺🇸 **Perplexity** | 第三方推理平台 | 🇺🇸 | ✅ 兼容 | No permanent free tier. New accounts receive $25-$50 in trial credits. Perplexity Pro subscribers ($20/month) receive $5 in monthly API credits. Startup programs offer grants from $500 to $5,000+. Paid options: Pay-as-you-go token pricing. | `Sonar Small Online`, `Sonar Large Online`, `Sonar Huge Online` (+1 更多) | [推荐注册链接]() / [官网普通链接](https://www.perplexity.ai/pro) |
 | 🇫🇷 **Poolside** | 第一方厂商 | 🇫🇷 | ✅ 兼容 | Enterprise-focused coding assistant and foundation models. Models are available with open weights (e.g., Laguna XS.2 is Apache-2.0 licensed). Free access to models is available via third-party integrations like OpenRouter, Puter.js, Requesty, and Krater.ai. Direct business model is custom enterprise deployment (on-premises or private VPCs), with no standard public self-serve pay-as-you-go pricing listed. | `Laguna M.1`, `Laguna XS.2` | [官网链接](https://poolside.ai/) |
@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter 动态免费模型
 
-*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-23 10:00:55 检测到 17 个模型）：*
+*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-07-24 10:01:02 检测到 18 个模型）：*
 
 | 模型 ID | 上下文窗口 | 描述 |
 | :--- | :--- | :--- |
@@ -138,6 +138,7 @@
 | `google/gemma-4-31b-it:free` | 262K | Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image inp... |
 | `google/lyria-3-clip-preview` | 1048K | 30 second duration clips are priced at $0.04 per clip. Lyria 3 is Google's family of music generatio... |
 | `google/lyria-3-pro-preview` | 1048K | Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation model... |
+| `inclusionai/ling-3.0-flash:free` | 262K | *Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B para... |
 | `nvidia/nemotron-3-nano-30b-a3b:free` | 256K | NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and acc... |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256K | NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception... |
 | `nvidia/nemotron-3-super-120b-a12b:free` | 262K | NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters fo... |
@@ -735,6 +736,7 @@
 - **OpenAI 兼容 Base URL**: `https://openrouter.ai/api/v1`
 - **规则与免费条件**: 20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up)
 - **支持的模型 / 功能特征**:
+  - `inclusionai/ling-3.0-flash:free`
   - `poolside/laguna-s-2.1:free`
   - `poolside/laguna-xs-2.1:free`
   - `cohere/north-mini-code:free`
@@ -749,7 +751,6 @@
   - `nvidia/nemotron-3-super-120b-a12b:free`
   - `openrouter/free`
   - `nvidia/nemotron-3-nano-30b-a3b:free`
-  - `nvidia/nemotron-nano-12b-v2-vl:free`
 
 ### ⚡ Parallel
 - **官网链接**: [点击访问](https://parallel.ai/)
@@ -973,4 +974,4 @@
 - **提交更新**: 欢迎提交更新 `free-llm-providers.json` 数据库或脚本的 PR。请不要直接编辑 `README.md`，因为它是由脚本动态生成的。
 
 ---
-*上次更新时间: 2026-07-23 10:00:55 (北京时间) | 编译 ID: 20260723100055*
+*上次更新时间: 2026-07-24 10:01:02 (北京时间) | 编译 ID: 20260724100102*
