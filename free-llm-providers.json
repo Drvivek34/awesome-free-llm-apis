@@ -1233,14 +1233,14 @@
         "nvidia/nemotron-3.5-content-safety:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "poolside/laguna-m.1:free",
         "google/gemma-4-26b-a4b-it:free",
         "google/gemma-4-31b-it:free",
         "google/lyria-3-pro-preview",
         "google/lyria-3-clip-preview",
         "nvidia/nemotron-3-super-120b-a12b:free",
         "openrouter/free",
-        "nvidia/nemotron-3-nano-30b-a3b:free"
+        "nvidia/nemotron-3-nano-30b-a3b:free",
+        "nvidia/nemotron-nano-12b-v2-vl:free"
       ]
     },
     {
@@ -1543,5 +1543,5 @@
       ]
     }
   ],
-  "last_updated": "2026-07-24T10:01:02+05:30"
+  "last_updated": "2026-08-03T00:15:47+05:30"
 }

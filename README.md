@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (18 models detected on 2026-07-24 10:01:02):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (17 models detected on 2026-08-03 00:15:47):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -148,7 +148,6 @@
 | `nvidia/nemotron-nano-9b-v2:free` | 128K | NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and desig... |
 | `openai/gpt-oss-20b:free` | 131K | gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. I... |
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
-| `poolside/laguna-m.1:free` | 262K | Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for c... |
 | `poolside/laguna-s-2.1:free` | 262K | Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 ... |
 | `poolside/laguna-xs-2.1:free` | 262K | Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://pools... |
 
@@ -743,7 +742,6 @@
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
   - `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`
-  - `poolside/laguna-m.1:free`
   - `google/gemma-4-26b-a4b-it:free`
   - `google/gemma-4-31b-it:free`
   - `google/lyria-3-pro-preview`
@@ -751,6 +749,7 @@
   - `nvidia/nemotron-3-super-120b-a12b:free`
   - `openrouter/free`
   - `nvidia/nemotron-3-nano-30b-a3b:free`
+  - `nvidia/nemotron-nano-12b-v2-vl:free`
 
 ### ⚡ Parallel
 - **Normal Link**: [Link](https://parallel.ai/)
@@ -974,4 +973,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-07-24 10:01:02 (IST) | Build ID: 20260724100102*
+*Last updated: 2026-08-03 00:15:47 (IST) | Build ID: 20260803001547*
