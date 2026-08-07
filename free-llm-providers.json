@@ -1226,7 +1226,7 @@
       "base_url": "https://openrouter.ai/api/v1",
       "quota": "20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up)",
       "models": [
-        "inclusionai/ling-3.0-flash:free",
+        "inclusionai/ling-3.0-tiny:free",
         "poolside/laguna-s-2.1:free",
         "poolside/laguna-xs-2.1:free",
         "cohere/north-mini-code:free",
@@ -1543,5 +1543,5 @@
       ]
     }
   ],
-  "last_updated": "2026-08-06T10:00:58+05:30"
+  "last_updated": "2026-08-07T10:00:11+05:30"
 }
