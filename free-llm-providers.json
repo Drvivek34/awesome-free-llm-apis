@@ -1226,9 +1226,9 @@
       "base_url": "https://openrouter.ai/api/v1",
       "quota": "20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up)",
       "models": [
+        "dots-studio/dots-3-note-preview:free",
         "liquid/lfm-2.5-2.6b:free",
         "nvidia/nemotron-3.5-lightning:free",
-        "inclusionai/ling-3.0-tiny:free",
         "poolside/laguna-s-2.1:free",
         "poolside/laguna-xs-2.1:free",
         "cohere/north-mini-code:free",
@@ -1543,5 +1543,5 @@
       ]
     }
   ],
-  "last_updated": "2026-08-13T10:00:56+05:30"
+  "last_updated": "2026-08-14T10:00:27+05:30"
 }
