@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter Dynamic Free Models
 
-*OpenRouter dynamically updates its free model catalogue. Current free text-models (19 models detected on 2026-08-16 10:00:46):*
+*OpenRouter dynamically updates its free model catalogue. Current free text-models (20 models detected on 2026-08-17 10:02:51):*
 
 | Model ID | Context Window | Description |
 | :--- | :--- | :--- |
@@ -152,6 +152,7 @@
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
 | `poolside/laguna-s-2.1:free` | 262K | Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 ... |
 | `poolside/laguna-xs-2.1:free` | 262K | Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://pools... |
+| `z-ai/glm-5.2:free` | 128K | GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-toke... |
 
 ## Detailed Provider Profiles & Conditions
 
@@ -743,6 +744,7 @@
   - `poolside/laguna-s-2.1:free`
   - `poolside/laguna-xs-2.1:free`
   - `cohere/north-mini-code:free`
+  - `z-ai/glm-5.2:free`
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
   - `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`
@@ -751,7 +753,6 @@
   - `google/lyria-3-pro-preview`
   - `google/lyria-3-clip-preview`
   - `nvidia/nemotron-3-super-120b-a12b:free`
-  - `openrouter/free`
 
 ### ⚡ Parallel
 - **Normal Link**: [Link](https://parallel.ai/)
@@ -975,4 +976,4 @@ This repository is maintained automatically by Hermes agents. Daily jobs scan up
 - **Submitting updates**: PRs updating `free-llm-providers.json` or scripts are welcome. Please don't edit `README.md` directly since it's dynamically generated.
 
 ---
-*Last updated: 2026-08-16 10:00:46 (IST) | Build ID: 20260816100046*
+*Last updated: 2026-08-17 10:02:51 (IST) | Build ID: 20260817100251*

@@ -129,7 +129,7 @@
 
 ## 🌐 OpenRouter 动态免费模型
 
-*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-08-16 10:00:46 检测到 19 个模型）：*
+*OpenRouter 动态更新其免费模型目录。当前免费文本模型（于 2026-08-17 10:02:51 检测到 20 个模型）：*
 
 | 模型 ID | 上下文窗口 | 描述 |
 | :--- | :--- | :--- |
@@ -152,6 +152,7 @@
 | `openrouter/free` | 200K | The simplest way to get free inference. openrouter/free is a router that selects free models at rand... |
 | `poolside/laguna-s-2.1:free` | 262K | Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 ... |
 | `poolside/laguna-xs-2.1:free` | 262K | Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://pools... |
+| `z-ai/glm-5.2:free` | 128K | GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-toke... |
 
 ## 详细服务商介绍与限制规则
 
@@ -743,6 +744,7 @@
   - `poolside/laguna-s-2.1:free`
   - `poolside/laguna-xs-2.1:free`
   - `cohere/north-mini-code:free`
+  - `z-ai/glm-5.2:free`
   - `nvidia/nemotron-3.5-content-safety:free`
   - `nvidia/nemotron-3-ultra-550b-a55b:free`
   - `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`
@@ -751,7 +753,6 @@
   - `google/lyria-3-pro-preview`
   - `google/lyria-3-clip-preview`
   - `nvidia/nemotron-3-super-120b-a12b:free`
-  - `openrouter/free`
 
 ### ⚡ Parallel
 - **官网链接**: [点击访问](https://parallel.ai/)
@@ -975,4 +976,4 @@
 - **提交更新**: 欢迎提交更新 `free-llm-providers.json` 数据库或脚本的 PR。请不要直接编辑 `README.md`，因为它是由脚本动态生成的。
 
 ---
-*上次更新时间: 2026-08-16 10:00:46 (北京时间) | 编译 ID: 20260816100046*
+*上次更新时间: 2026-08-17 10:02:51 (北京时间) | 编译 ID: 20260817100251*
