@@ -1226,10 +1226,13 @@
       "base_url": "https://openrouter.ai/api/v1",
       "quota": "20 RPM, 50 RPD free models (up to 1,000 RPD with $10 lifetime top-up)",
       "models": [
+        "stealth/ox-alpha",
         "dots-studio/dots-3-note-preview:free",
         "liquid/lfm-2.5-2.6b:free",
         "nvidia/nemotron-3.5-lightning:free",
+        "thinkingmachines/inkling-small:free",
         "poolside/laguna-s-2.1:free",
+        "thinkingmachines/inkling:free",
         "poolside/laguna-xs-2.1:free",
         "cohere/north-mini-code:free",
         "z-ai/glm-5.2:free",
@@ -1237,10 +1240,7 @@
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
         "google/gemma-4-26b-a4b-it:free",
-        "google/gemma-4-31b-it:free",
-        "google/lyria-3-pro-preview",
-        "google/lyria-3-clip-preview",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "google/gemma-4-31b-it:free"
       ]
     },
     {
@@ -1543,5 +1543,5 @@
       ]
     }
   ],
-  "last_updated": "2026-08-17T10:02:51+05:30"
+  "last_updated": "2026-08-24T00:49:40+05:30"
 }
